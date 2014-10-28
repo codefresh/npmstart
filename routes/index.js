@@ -9,7 +9,7 @@ router.get('/', function(req, res) {
 });
 router.get('/samples/:sample', function(req, res) {
   console.log("in samples router");
-  proxy.web(req, res, { target: 'http://localhost:80' });
+  proxy.web(req, res, { target: 'http://54.183.236.117:8081' });
 });
 
 module.exports = router;
