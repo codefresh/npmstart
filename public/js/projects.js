@@ -6,13 +6,40 @@ $('a').click(function(evt){
   console.log(evt.currentTarget.attributes['id']);
   var id = evt.currentTarget.attributes['id'].value;
   var url = "/samples/" + id;
-
+  var intevalHandle;
 
 $.get( url, function( data ) {
 
    console.log(data);
    window.open(data.url);
+   clearInterval(intevalHandle);
 });
+
+var value = 0.0;
+var el = $("#progress");
+var counter = 0;
+intevalHandle = setInterval(function(){
+  value = value + 0.05;
+  if (value > 1)
+    value = 0;
+  progress(value);
+  counter++;
+  //$(el).find('strong').html('<i>elapsed :</i>' + parseInt(counter) + '<i>sec</i>');
+},50)
+function progress(val)
+{
+
+   $('#progress').circleProgress({
+    size: 40,
+    startAngle: -Math.PI / 4 * 3,
+    value: val,
+    animation: false ,
+    fill: { gradient: ['#ff1e41', '#ff5f43'] }
+}).on('circle-animation-progress', function(event, progress) {
+    $(this).find('strong').html(parseInt(100 * progress) + '<i>%</i>');
+});
+
+}
 /*
 $.ajax({
     url: url,
