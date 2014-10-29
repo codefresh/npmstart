@@ -13,6 +13,7 @@ $.get( url, function( data ) {
    console.log(data);
    window.open(data.url);
    clearInterval(intevalHandle);
+   progress(0);
 });
 
 var value = 0.0;
