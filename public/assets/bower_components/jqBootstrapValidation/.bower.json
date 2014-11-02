@@ -1,0 +1,20 @@
+{
+  "name": "jqBootstrapValidation",
+  "version": "1.3.7",
+  "main": [
+    "./dist/jqBootstrapValidation-1.3.7.min.js"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "homepage": "https://github.com/ReactiveRaven/jqBootstrapValidation",
+  "_release": "1.3.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.7",
+    "commit": "b0fef9a8692cb52497d0f4f7ec7d2cf694c80459"
+  },
+  "_source": "git://github.com/ReactiveRaven/jqBootstrapValidation.git",
+  "_target": "~1.3.7",
+  "_originalSource": "jqBootstrapValidation"
+}

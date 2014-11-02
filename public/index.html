@@ -8,19 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
 
     <title>npmstart</title>
 
+    <link href="assets/bower_components/ngActivityIndicator/css/ngActivityIndicator.min.css" rel="stylesheet">
+
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="assets/css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="assets/bower_components/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,9 +33,15 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style type="text/css">
+        .center .ai-spinner {
+            left: 50%;
+        }
+    </style>
+
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" data-ng-app="npmStartApp">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -44,7 +54,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top"><img src="img/npm.png" style="height: 45px; width: auto"> Start</a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/images/npm.png" style="height: 45px; width: auto"> Start</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,10 +84,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" style="height: 70%; widows: auto;;" src="img/main1.png" alt="">
+                    <img class="img-responsive" style="height: 70%; widows: auto;;" src="assets/images/main1.png" alt="">
                     <div class="intro-text">
                         <span class="name">an online node.js lab</span>
-                        <img src="img/nodewhite1.png" style="height: 40px; width: auto;">
+                        <img src="assets/images/nodewhite1.png" style="height: 40px; width: auto;">
                         <span class="skills">explore, try and test your node.js code instantly</span>
                     </div>
                 </div>
@@ -86,81 +96,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-
-                    <h2>code samples</h2>
-                    <img src="img/nodeblue.png" style="height: 40px; width: auto; margin-bottom: 20px; margin-top: 20px">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a id="express" href="#"   class="portfolio-link" data-toggle="modal">
-
-                        <div class="caption">
-                            <div class="caption-content">
-                               <div id="progress" style="z-index:1000"></div>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/express.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a id="mongo" href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-play-circle-o fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/mongo.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a id="heroku" href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-play-circle-o fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/heroku.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a  href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-cloud-upload fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/comingsoon.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-cloud-upload fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/comingsoon.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-cloud-upload fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/comingsoon.png" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="portfolio" ui-view="codesample"></section>
 
     <!-- About Section -->
     <section class="success" id="about">
@@ -168,7 +104,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>about</h2>
-                    <img src="img/nodewhite1.png" style="height: 40px; width: auto; margin-top: 15px; margin-bottom: 15px">
+                    <img src="assets/images/nodewhite1.png" style="height: 40px; width: auto; margin-top: 15px; margin-bottom: 15px">
                 </div>
             </div>
             <div class="row">
@@ -189,7 +125,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>contact us</h2>
-                    <img src="img/nodeblue.png" style="height: 40px; width: auto;">
+                    <img src="assets/images/nodeblue.png" style="height: 40px; width: auto;">
                 </div>
             </div>
             <div class="row">
@@ -268,7 +204,7 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About&nbsp;&nbsp;<img src="img/npm.png" style="height: 45px; width: auto"> START</h3>
+                        <h3>About&nbsp;&nbsp;<img src="assets/images/npm.png" style="height: 45px; width: auto"> START</h3>
                         <p>nodestart is free & contributed to node.js developers community. Like us? please donate <a href="#" onclick="alert('thank you, we are still working on the site, come visit us again soon!')">here</a>.</p>
                     </div>
                 </div>
@@ -307,7 +243,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/cabin.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -344,7 +280,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/cake.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -381,7 +317,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/circus.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -418,7 +354,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/game.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -455,7 +391,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/safe.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -492,7 +428,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <img src="assets/images/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -519,8 +455,30 @@
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
+    <!-- Angular -->
+    <!--'ngCookies',
+    'ngResource',
+    'ngSanitize',
+    'ui.router'-->
+    <script src="assets/bower_components/angular/angular.min.js"></script>
+    <script src="assets/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="assets/bower_components/angular-cookies/angular-cookies.min.js"></script>
+    <script src="assets/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="assets/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="assets/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="assets/bower_components/ngActivityIndicator/ngActivityIndicator.min.js"></script>
+    <script src="assets/bower_components/angular-loading-bar/build/loading-bar.min.js"></script>
+
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/codeSample.js"></script>
+    <script src="scripts/services/codeSampleService.js"></script>
+    <script src="scripts/directives/codeit.js"></script>
+
+
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -528,7 +486,7 @@
     <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="assets/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
     <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
@@ -536,7 +494,7 @@
     <script src="js/projects.js"></script>
 
    <!-- progres bar-->
-    <script src="bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+    <script src="assets/bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
 
 </body>
 
