@@ -83,7 +83,7 @@ var createEnv = function(req, res)
   var name = req.params.name;
   console.log('name is '  + name);
   console.log('req.query is ' + JSON.stringify(req.query));
-  var p = fork('./modules/fresh-launcher/fcli.js', ['--port', 'auto', '-v', '--project', 'express'], {cwd:orion, execPath : 'node'});
+  var p = fork('./modules/fresh-launcher/fcli.js', ['--port', 'auto', '-v', '--project', 'express', '--ip', 'npmstart.com'], {cwd:orion, execPath : 'node'});
   env.push({name: name, pid: p.pid});
   p.on('message', function(m){
     console.log("message from child" + JSON.stringify(m));
