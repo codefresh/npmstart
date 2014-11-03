@@ -301,9 +301,16 @@ module.exports = function (grunt) {
     'usemin'
   ]);
 
+  grunt.registerTask('cleanup', [
+    'clean:dist',
+    'clean:server',
+  ]);
+
   grunt.registerTask('default', [
     'jshint',
     'test',
-    'build'
+    'build',
+    'cleanup',
   ]);
+
 };
