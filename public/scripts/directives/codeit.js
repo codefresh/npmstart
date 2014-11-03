@@ -5,7 +5,7 @@ app.directive('codeit', ['$http', 'cfpLoadingBar', function ($http, cfpLoadingBa
     var directive = {
         restrict: 'AE',
         controller: controller,
-        template: '<button type="button" class="btn btn-default" ng-click="codeit()">{{codeButton.title}}</button>'
+        template: '<button type="button" class="btn btn-primary" ng-click="codeit()">{{codeButton.title}}</button>'
 
     };
     //<p><a href="{{deploy.url}}" style="z-index:1001;background-color: blue;" target="_blank">{{deploy.title}}</a></p>
