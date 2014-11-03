@@ -1,210 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5f4450-1b11-454b-b994-10d4e0f2466a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/clickSpinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/code-sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/services/codeSampleService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/codesamplecollection.json" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\README.md" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\dist\circle-progress.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\karma-saucelabs.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery-circle-progress\package.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\bower_components\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\README.md" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\dist\circle-progress.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\karma-saucelabs.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery-circle-progress\package.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\bower_components\jquery\src\wrap.js" afterPath="" />
+    <list default="true" id="af5f4450-1b11-454b-b994-10d4e0f2466a" name="Default" comment="- refactoring, remove unused dependencies">
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\freelancer.css" afterPath="" />
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\css\font-awesome.css" afterPath="" />
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\css\font-awesome.min.css" afterPath="" />
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\fonts\FontAwesome.otf" afterPath="" />
@@ -238,40 +38,47 @@
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\scss\_stacked.scss" afterPath="" />
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\scss\_variables.scss" afterPath="" />
       <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\font-awesome-4.1.0\scss\font-awesome.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main1.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main2.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodeblue.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodewhite.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodewhite1.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\npm.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\cabin.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\cake.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\circus.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\comingsoon.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\express.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\game.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\heroku.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\mongo.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\safe.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\submarine.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\profile.png" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\freelancer.less" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\variables.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/codeit.js" afterPath="$PROJECT_DIR$/public/scripts/directives/codeit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/progress.html" afterPath="$PROJECT_DIR$/public/progress.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/projects.js" afterPath="$PROJECT_DIR$/public/js/projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.css" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\css\freelancer.css" afterPath="$PROJECT_DIR$/public/assets/css/freelancer.css" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main.png" afterPath="$PROJECT_DIR$/public/assets/images/main.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main1.png" afterPath="$PROJECT_DIR$/public/assets/images/main1.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\main2.png" afterPath="$PROJECT_DIR$/public/assets/images/main2.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodeblue.png" afterPath="$PROJECT_DIR$/public/assets/images/nodeblue.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodewhite.png" afterPath="$PROJECT_DIR$/public/assets/images/nodewhite.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\nodewhite1.png" afterPath="$PROJECT_DIR$/public/assets/images/nodewhite1.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\npm.png" afterPath="$PROJECT_DIR$/public/assets/images/npm.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\cabin.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/cabin.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\cake.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/cake.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\circus.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/circus.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\comingsoon.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/comingsoon.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\express.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/express.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\game.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/game.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\heroku.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/heroku.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\mongo.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/mongo.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\safe.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/safe.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\portfolio\submarine.png" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/submarine.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\img\profile.png" afterPath="$PROJECT_DIR$/public/assets/images/profile.png" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\freelancer.less" afterPath="$PROJECT_DIR$/public/assets/less/freelancer.less" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\mixins.less" afterPath="$PROJECT_DIR$/public/assets/less/mixins.less" />
-      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\less\variables.less" afterPath="$PROJECT_DIR$/public/assets/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\bootstrap.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\cbpAnimatedHeader.js" afterPath="$PROJECT_DIR$/public/assets/js/cbpAnimatedHeader.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\cbpAnimatedHeader.min.js" afterPath="$PROJECT_DIR$/public/assets/js/cbpAnimatedHeader.min.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\classie.js" afterPath="$PROJECT_DIR$/public/assets/js/classie.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\contact_me.js" afterPath="$PROJECT_DIR$/public/assets/js/contact_me.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\freelancer.js" afterPath="$PROJECT_DIR$/public/assets/js/freelancer.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/public/assets/js/jqBootstrapValidation.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\jquery-1.11.0.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-1.11.0.js" />
+      <change type="MOVED" beforePath="J:\Projects\dev.codefresh.com\npmstart\public\js\projects.js" afterPath="$PROJECT_DIR$/public/assets/js/projects.js" />
     </list>
     <ignored path="npmstart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -295,66 +102,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="www" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.243243" vertical-offset="0" max-vertical-offset="8064">
-              <caret line="490" column="29" selection-start-line="490" selection-start-column="29" selection-end-line="490" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.10896708" vertical-offset="7184" max-vertical-offset="8256">
+              <caret line="455" column="24" selection-start-line="455" selection-start-column="24" selection-end-line="455" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/projects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="784">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codeSample.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/controllers/codeSample.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codeSampleService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/services/codeSampleService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -362,13 +117,52 @@
       <file leaf-file-name="code-sample.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/code-sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="496">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state vertical-scroll-proportion="-10.916667" vertical-offset="10" max-vertical-offset="592">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#codeit#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codeit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/directives/codeit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1024">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cabin.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/images/portfolio/cabin.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/images/main1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/images/main.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codeSampleService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/services/codeSampleService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -377,6 +171,38 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <alias-tasks>
+          <alias-task value="default" />
+          <alias-task value="test" />
+        </alias-tasks>
+        <multi-tasks>
+          <GruntMultiTaskState>
+            <name>concat</name>
+            <targets>
+              <target value="dist" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>jshint</name>
+            <targets>
+              <target value="files" />
+            </targets>
+          </GruntMultiTaskState>
+          <GruntMultiTaskState>
+            <name>uglify</name>
+            <targets>
+              <target value="dist" />
+            </targets>
+          </GruntMultiTaskState>
+        </multi-tasks>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -411,7 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -504,257 +329,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngActivityIndicator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npmstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="J:/My Documents/My Work/My Web Project/dev-trunk.dfusiontech.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../npmstart2.my" />
     <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/../npmstart2.my" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -763,6 +356,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="J:\Projects\dev.codefresh.com\npmstart\public\assets" />
       <recent name="J:\Projects\dev.codefresh.com\npmstart\public\assets\images" />
+      <recent name="J:\Projects\dev.codefresh.com\npmstart\public\assets\images\portfolio" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.npmstart">
@@ -787,15 +381,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="npmstart JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3001/">
@@ -805,7 +399,9 @@
     </configuration>
     <configuration default="false" name="npmstart" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin">
       <browser start="true" with-js-debugger="true" url="http://localhost:3001/" />
+      <RunnerSettings RunnerId="Basic" />
       <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
@@ -815,6 +411,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="af5f4450-1b11-454b-b994-10d4e0f2466a" name="Default" comment="" />
@@ -826,21 +425,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056443" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30499467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35706696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22949947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35782748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23162939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -867,9 +468,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22949947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -893,6 +494,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/codeSample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="432">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/services/codeSampleService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="464">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/code-sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="496">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="240">
@@ -906,8 +533,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8800">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -925,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="352">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,18 +579,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="752">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jqBootstrapValidation.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19343697" vertical-offset="0" max-vertical-offset="14688">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="57" />
@@ -984,23 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13722126" vertical-offset="0" max-vertical-offset="656">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/main.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/portfolio/cabin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/npm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/images/favicon.ico">
@@ -1012,15 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11254396" vertical-offset="0" max-vertical-offset="853">
           <caret line="6" column="3140" selection-start-line="6" selection-start-column="3137" selection-end-line="6" selection-end-column="3140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,19 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054700855" vertical-offset="0" max-vertical-offset="585">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/bower_components/angular-resource/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,15 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.052892562" vertical-offset="0" max-vertical-offset="605">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/codeSample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,21 +718,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25437203" vertical-offset="0" max-vertical-offset="880">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <marker date="1414774831317" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/codesamplecollection.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07933884" vertical-offset="0" max-vertical-offset="688">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/classie.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/classie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.83942765" vertical-offset="528" max-vertical-offset="1376">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1164,7 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1526232" vertical-offset="96" max-vertical-offset="1216">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
@@ -1172,20 +739,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/freelancer.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/freelancer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.06836248" vertical-offset="43" max-vertical-offset="672">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.13787639" vertical-offset="169" max-vertical-offset="800">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1198,27 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/services/codeSampleService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/code-sample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="496">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/projects.js">
+    <entry file="file://$PROJECT_DIR$/public/assets/js/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
@@ -1226,13 +773,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/envs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035794184" vertical-offset="0" max-vertical-offset="894">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/code-sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.916667" vertical-offset="10" max-vertical-offset="592">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#codeit#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/codesamplecollection.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37275985" vertical-offset="0" max-vertical-offset="688">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/codeSample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3969072" vertical-offset="9" max-vertical-offset="640">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/services/codeSampleService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/codeit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1024">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/portfolio/cabin.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/main1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/main.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.243243" vertical-offset="0" max-vertical-offset="8064">
-          <caret line="490" column="29" selection-start-line="490" selection-start-column="29" selection-end-line="490" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.10896708" vertical-offset="7184" max-vertical-offset="8256">
+          <caret line="455" column="24" selection-start-line="455" selection-start-column="24" selection-end-line="455" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
