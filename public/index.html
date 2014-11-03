@@ -15,16 +15,21 @@
     <link href="assets/bower_components/ngActivityIndicator/css/ngActivityIndicator.min.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- build:css assets/css/bootstrap.min.css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- endbuild -->
 
     <!-- Custom CSS -->
+    <!-- build:css assets/css/freelancer.min.css -->
     <link href="assets/css/freelancer.css" rel="stylesheet">
+    <!-- endbuild -->
+    <link href="assets/bower_components/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="assets/bower_components/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -452,8 +457,17 @@
         </div>
     </div>
 
-    <!-- jQuery Version 1.11.0 -->
-    <script src="assets/js/jquery-1.11.0.js"></script>
+    <!-- jQuery -->
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <script src="assets/bower_components/classie/classie.js"></script>
+    <script src="assets/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+    <script src="assets/bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Angular -->
     <!--'ngCookies',
@@ -470,31 +484,25 @@
     <script src="assets/bower_components/ngActivityIndicator/ngActivityIndicator.min.js"></script>
     <script src="assets/bower_components/angular-loading-bar/build/loading-bar.min.js"></script>
 
-
+    <!-- build:js scripts/npmstart.min.js -->
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/codeSample.js"></script>
     <script src="scripts/services/codeSampleService.js"></script>
     <script src="scripts/directives/codeit.js"></script>
+    <!-- endbuild -->
 
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <script src="assets/js/cbpAnimatedHeader.js"></script>
+    <!-- build:js assets/js/npmstart-dependencies.js -->
+    <script src="assets/js/cbpAnimatedHeader.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="assets/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
     <script src="assets/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="assets/js/freelancer.js"></script>
-    <script src="assets/js/projects.js"></script>
+    <!--<script src="assets/js/projects.js"></script>-->
 
-   <!-- progres bar-->
-    <script src="assets/bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+    <!-- endbuild -->
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

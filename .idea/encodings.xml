@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/.editorconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/app/bower_components/angular-sticky-table-header/src/angular-sticky-table-header.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/app/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/app/styles/codefresh/codefresh-layout.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/app/views/issues.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../CodeFreshServer4/codefreshServer/bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.jshintrc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gruntfile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/data/codesamplecollection.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/index2.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/scripts/directives/codeit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/views/code-sample.html" charset="UTF-8" />
   </component>
 </project>

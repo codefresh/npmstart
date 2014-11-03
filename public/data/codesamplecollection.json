@@ -2,37 +2,79 @@
   {
     "id": "express",
     "type": "1",
-    "caption-text": "",
-    "caption-image": "express.png"
+    "caption-text": "Web application framework for node",
+    "caption-image": "express.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   },
   {
     "id": "mongo",
     "type": "1",
-    "caption-text": "",
-    "caption-image": "mongo.png"
+    "caption-text": "An open source NoSQL database",
+    "caption-image": "mongo.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   },
   {
     "id": "heroku",
     "type": "1",
-    "caption-text": "",
-    "caption-image": "heroku.png"
+    "caption-text": "An cloud platform as a service supporting node",
+    "caption-image": "heroku.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   },
   {
     "id": "comingsoon",
     "type": "1",
     "caption-text": "",
-    "caption-image": "comingsoon.png"
+    "caption-image": "comingsoon.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   },
   {
     "id": "comingsoon",
     "type": "1",
     "caption-text": "",
-    "caption-image": "comingsoon.png"
+    "caption-image": "comingsoon.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   },
   {
     "id": "comingsoon",
     "type": "1",
     "caption-text": "",
-    "caption-image": "comingsoon.png"
+    "caption-image": "comingsoon.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "link": ""
+      }
+    ]
   }
 ]

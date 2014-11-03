@@ -9,22 +9,21 @@
         <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark">
         </div>
         <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection">
-
             <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
-
                 <div class="caption">
-
                     <div class="caption-content">
-                      <codeit style="z-index:1001"/>
-                      <!--  <button class="btn btn-primary btn-sm" ng-click="code()">Code It!</button>
-                        <p><a href="{{deploy.url}}" target="_blank">{{deploy.title}}- {{$id}}</a></p>-->
-
-                        <div id="progress" style="z-index:1000">
-
-                        </div>
+                        <codeit style="z-index:1001"/>
+                        <!--
+                        <button class="btn btn-primary btn-sm" ng-click="code()">Code It!</button>
+                        <p><a href="{{deploy.url}}" target="_blank">{{deploy.title}}- {{$id}}</a></p>
+                        -->
+                        <div id="progress" style="z-index:1000"></div>
                     </div>
                 </div>
-                <img ng-src="assets/images/portfolio/{{sampleItem['caption-image']}}" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
+                <div class="thumbnail">
+                    <img ng-src="assets/images/portfolio/{{sampleItem['caption-image']}}" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
+                    <!--<h3>{{sampleItem['caption-text']}}</h3>-->
+                </div>
             </a>
         </div>
     </div>
