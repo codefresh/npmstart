@@ -101,7 +101,7 @@ module.exports = function (grunt) {
         separator: ';'
       },
       dist: {
-        src: ['<%= project.app %>/scripts/*/*.js'],
+        src: ['<%= project.app %>/scripts/{,*/}*.js'],
         dest: 'dist/scripts/<%= project.appName %>.js'
       }
     },
@@ -112,6 +112,7 @@ module.exports = function (grunt) {
             '<%= project.dist %>/scripts/{,*/}*.js',
             '<%= project.dist %>/assets/css/{,*/}*.css',
             '<%= project.dist %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            '!<%= project.dist %>/assets/images/portfolio/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= project.dist %>/assets/fonts/*'
           ]
         }
@@ -124,7 +125,7 @@ module.exports = function (grunt) {
       }
     },
     usemin: {
-      html: ['<%= project.dist %>/{,*/}*.html'],
+      html: ['<%= project.dist %>/views/{,*/}*.html','<%= project.dist %>/{,*/}*.html'],
       css: ['<%= project.dist %>/assets/css/{,*/}*.css'],
       options: {
         dirs: ['<%= project.dist %>']
@@ -135,7 +136,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= project.app %>/assets/images',
-          src: '{,*/}*.{png,jpg,jpeg}',
+          src: ['{,*/}*.{png,jpg,jpeg}'],
           dest: '<%= project.dist %>/assets/images'
         }]
       }
@@ -254,7 +255,8 @@ module.exports = function (grunt) {
     },
     uglify: {
       options: {
-        banner: '/*! <%= project.appName %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+        banner: '/*! <%= project.appName %> <%= grunt.template.today("dd-mm-yyyy") %> */\n',
+        mangle: false
       },
       dist: {
         files: {
@@ -308,7 +310,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'cleanup',
-    'build',    
+    'build',
   ]);
 
 };
