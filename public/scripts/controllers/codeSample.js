@@ -15,6 +15,7 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
 
     $scope.providers = CodeSampleService.getAllSampleProviders();
     $scope.currentProvider = {}
+    angular.copy($scope.providers[0], $scope.currentProvider);
 
     CodeSampleService.getSampleCollection().success(function(data, status, headers, config) {
 
