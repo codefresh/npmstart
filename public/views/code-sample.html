@@ -1,30 +1,45 @@
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2>code samples</h2>
-            <img src="assets/images/nodeblue.png" style="height: 40px; width: auto; margin-bottom: 20px; margin-top: 20px">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark">
-        </div>
-        <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection">
-            <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
-                <div class="caption">
-                    <div class="caption-content">
-                        <codeit style="z-index:1001"/>
-                        <!--
-                        <button class="btn btn-primary btn-sm" ng-click="code()">Code It!</button>
-                        <p><a href="{{deploy.url}}" target="_blank">{{deploy.title}}- {{$id}}</a></p>
-                        -->
-                        <div id="progress" style="z-index:1000"></div>
+<div class="row">
+    <div class="col-sm-10 col-sm-offset-1 center">
+        <form class="search-sample" role="form">
+            <div class="form-group">
+                <div class="input-group">
+                    <div dropdown-select="providers"
+                         dropdown-model="currentProvider"
+                         dropdown-item-label="name" >
                     </div>
+                    <!-- <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">{{currentProvider.name}}<span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><i class="fa fa-github"></i> GitHub</a></li>
+                            <li><a href="#"><i class="fa fa-">&#x2731;</i> Sourcegraph</a></li>
+                        </ul>
+                    </div>-->
+                    <input type="text" class="form-control" placeholder="Search">
+                </div><!-- /input-group -->
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark">
+    </div>
+    <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection">
+        <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+                <div class="caption-content">
+                    <codeit style="z-index:1001"/>
+                    <!--
+                    <button class="btn btn-primary btn-sm" ng-click="code()">Code It!</button>
+                    <p><a href="{{deploy.url}}" target="_blank">{{deploy.title}}- {{$id}}</a></p>
+                    -->
+                    <div id="progress" style="z-index:1000"></div>
                 </div>
-                <div class="thumbnail">
-                    <img ng-src="assets/images/portfolio/{{sampleItem['caption-image']}}" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                    <!--<h3>{{sampleItem['caption-text']}}</h3>-->
-                </div>
-            </a>
-        </div>
+            </div>
+            <div class="caption-thumbnail">
+                <img ng-src="assets/images/portfolio/{{sampleItem['caption-image']}}" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
+                <!--<h3>{{sampleItem['caption-text']}}</h3>-->
+            </div>
+            <a class="repo-link" href="{{sampleItem['caption-links'][0].link}}" ng-show="sampleItem['caption-links'][0].link"><i class="fa fa-github"></i>{{sampleItem['caption-links'][0].name}}</a>
+        </a>
     </div>
 </div>

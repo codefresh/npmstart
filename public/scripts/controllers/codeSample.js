@@ -10,10 +10,14 @@
 
 var app = angular.module('npmStartApp');
 
-app.controller('codeSampleCtrl', function ($scope, $location, $state, $http, CodeSampleService, $activityIndicator) {
+app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', function ($scope, $location, $http, CodeSampleService, $activityIndicator) {
     $activityIndicator.startAnimating();
 
+    $scope.providers = CodeSampleService.getAllSampleProviders();
+    $scope.currentProvider = {}
+
     CodeSampleService.getSampleCollection().success(function(data, status, headers, config) {
+
         $scope.codeSampleCollection = data;
       /*  $scope.code = function()
         {
@@ -31,4 +35,4 @@ app.controller('codeSampleCtrl', function ($scope, $location, $state, $http, Cod
         $activityIndicator.stopAnimating();
     })
 
-});
+}]);

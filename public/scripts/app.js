@@ -17,7 +17,8 @@ angular.module('npmStartApp', [
     'ngRoute',
     'ui.router',
     'ngActivityIndicator',
-    'chieffancypants.loadingBar'
+    'chieffancypants.loadingBar',
+    'ngDropdowns'
 ])
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         //delete $httpProvider.defaults.headers.common['X-Requested-With'];

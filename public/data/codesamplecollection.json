@@ -8,7 +8,8 @@
       {
         "id": 0,
         "type": "github",
-        "link": ""
+        "name" :"Test Repo",
+        "link": "http://github.com/"
       }
     ]
   },
@@ -21,6 +22,7 @@
       {
         "id": 0,
         "type": "github",
+        "name" :"",
         "link": ""
       }
     ]
@@ -34,6 +36,7 @@
       {
         "id": 0,
         "type": "github",
+        "name" :"",
         "link": ""
       }
     ]
@@ -47,6 +50,7 @@
       {
         "id": 0,
         "type": "github",
+        "name" :"",
         "link": ""
       }
     ]
@@ -60,6 +64,7 @@
       {
         "id": 0,
         "type": "github",
+        "name" :"",
         "link": ""
       }
     ]
@@ -73,6 +78,7 @@
       {
         "id": 0,
         "type": "github",
+        "name" :"",
         "link": ""
       }
     ]

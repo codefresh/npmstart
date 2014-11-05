@@ -1,23 +1,37 @@
 'use strict';
 
-angular.module('npmStartApp')
+var app = angular.module('npmStartApp')
 
-	.service('CodeSampleService', function($http, $resource) {
+app.service('CodeSampleService', ['$http', '$resource', function($http, $resource) {
 
-		var getSampleCollection = function( ) {
+	var getSampleCollection = function( ) {
 
-			return $http.get('/data/codesamplecollection.json')
-				.success(function(data, status, headers, config) {
-					console.log("getSampleCollection success");
-				})
-				.error(function(data, status, headers, config) {
-					console.log("getSampleCollection error");
-				});
-		};
+		return $http.get('/data/codesamplecollection.json')
+			.success(function(data, status, headers, config) {
+				console.log("getSampleCollection success");
+			})
+			.error(function(data, status, headers, config) {
+				console.log("getSampleCollection error");
+			});
+	};
 
-		return {
-			getSampleCollection: getSampleCollection
-		};
+	var getSampleProviders = function( ) {
+		var result = [
+			{name:'GitHub', type: 'github', icon: 'github', apiUrl:'213'},
+			{name:'Sourcegraph', type: 'sourcegraph', icon: 'sourcegraph', apiUrl:'376'},
+		];
+		return result;
+	}
 
-	});
+	var getSampleProviderById = function(id) {
+
+	}
+
+	return {
+		getAllSampleProviders: getSampleProviders,
+		getSampleProviderById: getSampleProviderById,
+		getSampleCollection: getSampleCollection
+	};
+
+}]);
 
