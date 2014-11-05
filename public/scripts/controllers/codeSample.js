@@ -17,6 +17,21 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
     $scope.currentProvider = {}
     angular.copy($scope.providers[0], $scope.currentProvider);
 
+    $scope.$watch( "currentProvider.name", function( newValue, oldValue ) {
+            // Ignore initial setup.
+            if ( newValue === oldValue ) {
+                return;
+            }
+
+            console.log( "$watch: currentProvider changed to < " + newValue + " >");
+
+            // Ignore if form already mirrors new value.
+            if ( $scope.currentProvider.name === newValue ) {
+                return;
+            }
+        }
+    );
+
     CodeSampleService.getSampleCollection().success(function(data, status, headers, config) {
 
         $scope.codeSampleCollection = data;
