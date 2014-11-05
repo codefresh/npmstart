@@ -6,3 +6,4 @@
 /.bower-components
 /.tmp
 /dist
+/public/assets/styles
