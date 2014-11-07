@@ -21,25 +21,22 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark">
-    </div>
+    <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark"></div>
     <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection">
-        <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
-            <div class="caption">
-                <div class="caption-content">
-                    <codeit style="z-index:1001"/>
-                    <!--
-                    <button class="btn btn-primary btn-sm" ng-click="code()">Code It!</button>
-                    <p><a href="{{deploy.url}}" target="_blank">{{deploy.title}}- {{$id}}</a></p>
-                    -->
-                    <div id="progress" style="z-index:1000"></div>
+        <div class="portfolio-item">
+            <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-caption">
+                    <div class="portfolio-caption-content">
+                        <codeit style="z-index:1001"/>
+                        <div id="progress" style="z-index:1000"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="caption-thumbnail">
-                <img ng-src="assets/images/portfolio/{{sampleItem['caption-image']}}" class="img-responsive" style="border:5px solid #2c3e50;" alt="">
-                <!--<h3>{{sampleItem['caption-text']}}</h3>-->
-            </div>
+                <div class="portfolio-caption-thumbnail {{sampleItem.id}}">
+                    <img ng-src="assets/images/portfolio/logo/{{sampleItem['caption-image']}}" class="img-responsive" alt="">
+                    <p>{{sampleItem['caption-text']}}</p>
+                </div>
+            </a>
             <a class="repo-link" href="{{sampleItem['caption-links'][0].link}}" ng-show="sampleItem['caption-links'][0].link"><i class="fa fa-github"></i>{{sampleItem['caption-links'][0].name}}</a>
-        </a>
+        </div>
     </div>
 </div>

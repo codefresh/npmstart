@@ -162,6 +162,13 @@ header .intro-text .skills {
     }
 }
 
+@media(min-width: 360px) and (max-width: 767px) {
+    .navbar-fixed-top .navbar-brand img {
+        width: auto;
+        height: 26px;
+    }
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -214,11 +221,14 @@ section.success {
     margin: 0 0 15px;
 }
 
+#portfolio .portfolio-item .portfolio-item,
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    color: #2c3e50;
+    text-decoration: none
 }
 
 #portfolio .portfolio-item .repo-link {
@@ -233,7 +243,7 @@ section.success {
     margin-right: 6px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#portfolio .portfolio-item .portfolio-link .portfolio-caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -244,11 +254,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-caption .portfolio-caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -259,13 +269,38 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .portfolio-caption .portfolio-caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-caption .portfolio-caption-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-caption .portfolio-caption-content h4 {
     margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail {
+    border:5px solid #2c3e50;
+    height: 263px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail.comingsoon img {
+    padding-top: 23%;
+    width: 80% \9;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail img {
+    padding-top: 25px;
+    width: 50% \9;
+    max-width: 50%;
+    margin-left: 62px;
+    margin-right: 33px;
+    /*margin: 0 auto;*/
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail p {
+    padding-left: 62px;
+    padding-right: 33px;
+    padding-bottom: 25px;
 }
 
 #portfolio * {
@@ -354,10 +389,37 @@ section.success {
     margin-right: 5px;
 }
 
+@media(min-width:1200px) {
+    #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail {
+        height: 263px;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1200px){
+    #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail {
+        height: 196px;
+    }
+}
+@media(min-width: 768px) and (max-width:992px){
+    #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail {
+        height: 153px;
+    }
+    #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail img {
+        margin-left: 35px;
+        margin-right: 33px;
+    }
+    #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail p {
+        font-size: 14px;
+        padding-left: 35px;
+        padding-right: 33px;
+        padding-bottom: 16px;
+    }
+}
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+
 }
 
 .btn-outline {
