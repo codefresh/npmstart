@@ -37,6 +37,11 @@ angular.module('npmStartApp', [
                                 return CodeSampleService.getSampleCollection();
                             }
                         }*/
+                    },
+                    'searchform': {
+                        abstract: true,
+                        templateUrl: '../views/search-form.html',
+                        controller: 'searchFormCtrl'
                     }
                 }
             })
