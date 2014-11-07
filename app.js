@@ -10,9 +10,9 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var app = express();
 var envs = require('./routes/envs')(app);
+var nconf = require('nconf');
 
-
-
+nconf.argv().env();
 // view engine setup
 
 app.set('views', path.join(__dirname, 'views'));
@@ -24,6 +24,12 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+if (nconf.get('prod'))
+{
+console.log("production mode");
+app.use(express.static(path.join(__dirname, 'dist')));
+}
+else
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
