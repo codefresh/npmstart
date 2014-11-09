@@ -66,6 +66,9 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left search-sample" role="form">
+                    <div ui-view="searchform"></div>
+                </form>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -512,8 +515,10 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/codeSample.js"></script>
     <script src="scripts/services/codeSampleService.js"></script>
+    <script src="scripts/controllers/searchFormCtrl.js"></script>
     <script src="scripts/directives/codeit.js"></script>
     <script src="scripts/directives/npmDropdown.js"></script>
+    <script src="scripts/directives/enterKeypress.js"></script>
     <!-- endbuild -->
 
     <script>
