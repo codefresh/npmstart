@@ -111,7 +111,7 @@ module.exports = function (grunt) {
           src: [
             '<%= project.dist %>/scripts/{,*/}*.js',
             '<%= project.dist %>/assets/css/{,*/}*.css',
-            '<%= project.dist %>/assets/images/**/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            '<%= project.dist %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '!<%= project.dist %>/assets/images/portfolio/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= project.dist %>/assets/fonts/*'
           ]
@@ -225,7 +225,13 @@ module.exports = function (grunt) {
       test: [
         'copy:styles'
       ],
-},
+      dist: [
+        'copy:styles',
+        'imagemin',
+        'svgmin',
+        'htmlmin'
+      ]
+    },
     karma: {
       unit: {
         configFile: 'karma.conf.js',
@@ -274,12 +280,6 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask('images',[
-  'copy:styles',
-  'imagemin',
-  'svgmin',
-  'htmlmin'
-  ]);
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
@@ -291,6 +291,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'useminPrepare',
+    'concurrent:dist',
     'autoprefixer',
     'concat',
     'copy:dist',
@@ -299,8 +300,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'rev',
-    'usemin',
-    'images'
+    'usemin'
   ]);
 
   grunt.registerTask('cleanup', [
