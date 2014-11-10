@@ -284,6 +284,12 @@ section.success {
     }
 }
 
+.intro-wrapper img.img-responsive {
+    height: auto;
+    width: 70%;
+    max-width: 432px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
