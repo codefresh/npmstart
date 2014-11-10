@@ -6,5 +6,5 @@
 /.bower-components
 /.tmp
 /public/assets/styles
-/node_modules
+node_modules
 /public/assets/bower_components
