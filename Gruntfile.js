@@ -225,13 +225,7 @@ module.exports = function (grunt) {
       test: [
         'copy:styles'
       ],
-      dist: [
-        'copy:styles',
-        'imagemin',
-        'svgmin',
-        'htmlmin'
-      ]
-    },
+},
     karma: {
       unit: {
         configFile: 'karma.conf.js',
@@ -280,6 +274,12 @@ module.exports = function (grunt) {
     ]);
   });
 
+  grunt.registerTask('images',[
+  'copy:styles',
+  'imagemin',
+  'svgmin',
+  'htmlmin'
+  ]);
   grunt.registerTask('test', [
     'clean:server',
     'concurrent:test',
@@ -291,7 +291,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'useminPrepare',
-    'concurrent:dist',
+    'images',
     'autoprefixer',
     'concat',
     'copy:dist',
