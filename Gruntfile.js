@@ -111,7 +111,7 @@ module.exports = function (grunt) {
           src: [
             '<%= project.dist %>/scripts/{,*/}*.js',
             '<%= project.dist %>/assets/css/{,*/}*.css',
-            '<%= project.dist %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            '<%= project.dist %>/assets/images/**/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '!<%= project.dist %>/assets/images/portfolio/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= project.dist %>/assets/fonts/*'
           ]
@@ -136,7 +136,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= project.app %>/assets/images',
-          src: ['{,*/}*.{png,jpg,jpeg}'],
+          src: ['**/{,*/}*.{png,jpg,jpeg}'],
           dest: '<%= project.dist %>/assets/images'
         }]
       }

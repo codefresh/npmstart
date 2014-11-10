@@ -1,0 +1,714 @@
+[4mInitializing[24m
+Command-line options: [36m--verbose[39m
+
+Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+
+[1mRegistering Gruntfile tasks.[22m
+
+[1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+Loading "autoprefixer.js" tasks...[32mOK[39m
++ [36mautoprefixer[39m
+
+[1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+Loading "concurrent.js" tasks...[32mOK[39m
++ [36mconcurrent[39m
+
+[1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+Loading "clean.js" tasks...[32mOK[39m
++ [36mclean[39m
+
+[1mRegistering "grunt-contrib-coffee" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+Loading "coffee.js" tasks...[32mOK[39m
++ [36mcoffee[39m
+
+[1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+Loading "compass.js" tasks...[32mOK[39m
++ [36mcompass[39m
+
+[1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+Loading "concat.js" tasks...[32mOK[39m
++ [36mconcat[39m
+
+[1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+Loading "connect.js" tasks...[32mOK[39m
++ [36mconnect[39m
+
+[1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+Loading "copy.js" tasks...[32mOK[39m
++ [36mcopy[39m
+
+[1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+Loading "cssmin.js" tasks...[32mOK[39m
++ [36mcssmin[39m
+
+[1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+Loading "htmlmin.js" tasks...[32mOK[39m
++ [36mhtmlmin[39m
+
+[1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+Loading "imagemin.js" tasks...[32mOK[39m
++ [36mimagemin[39m
+
+[1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+Loading "jshint.js" tasks...[32mOK[39m
++ [36mjshint[39m
+
+[1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+Loading "uglify.js" tasks...[32mOK[39m
++ [36muglify[39m
+
+[1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+Loading "watch.js" tasks...[32mOK[39m
++ [36mwatch[39m
+
+[1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+Loading "cdnify.js" tasks...[32mOK[39m
++ [36mcdnify[39m
+
+[1mRegistering "grunt-karma" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+Loading "grunt-karma.js" tasks...[32mOK[39m
++ [36mkarma[39m
+
+[1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+Loading "ngmin.js" tasks...[32mOK[39m
++ [36mngmin[39m
+
+[1mRegistering "grunt-rev" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+Loading "rev.js" tasks...[32mOK[39m
++ [36mrev[39m
+
+[1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+Loading "svgmin.js" tasks...[32mOK[39m
++ [36msvgmin[39m
+
+[1mRegistering "grunt-usemin" local Npm module tasks.[22m
+Reading /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+Parsing /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+Loading "usemin.js" tasks...[32mOK[39m
++ [36musemin[39m, [36museminPrepare[39m
+Initializing config...[32mOK[39m
+Loading "Gruntfile.js" tasks...[32mOK[39m
++ [36mbuild[39m, [36mcleanup[39m, [36mdefault[39m, [36mserver[39m, [36mtest[39m
+
+No tasks specified, running default tasks.
+Running tasks: [36mdefault[39m
+
+[4mRunning "default" task[24m
+
+[4mRunning "cleanup" task[24m
+
+[4mRunning "clean:dist" (clean) task[24m
+Verifying property [36mclean.dist[39m exists in config...[32mOK[39m
+Files: [36m.tmp[39m, [36mdist/.htaccess[39m, [36mdist/assets[39m, [36mdist/data[39m, [36mdist/index.html[39m, [36mdist/index2.html[39m, [36mdist/progress.html[39m, [36mdist/robots.txt[39m, [36mdist/scripts[39m, [36mdist/views[39m
+Options: [36mforce=false[39m, [36mno-write=false[39m
+Cleaning .tmp...
+Cleaning dist/.htaccess...
+Cleaning dist/assets...
+Cleaning dist/data...
+Cleaning dist/index.html...
+Cleaning dist/index2.html...
+Cleaning dist/progress.html...
+Cleaning dist/robots.txt...
+Cleaning dist/scripts...
+Cleaning dist/views...
+[32m>> [39m10 paths cleaned.
+
+[4mRunning "clean:server" (clean) task[24m
+Verifying property [36mclean.server[39m exists in config...[32mOK[39m
+Files: [33m[no src][39m -> [36mserver[39m
+Options: [36mforce=false[39m, [36mno-write=false[39m
+[32m>> [39m0 paths cleaned.
+
+[4mRunning "build" task[24m
+
+[4mRunning "clean:dist" (clean) task[24m
+Verifying property [36mclean.dist[39m exists in config...[32mOK[39m
+Files: [33m[no src][39m
+Options: [36mforce=false[39m, [36mno-write=false[39m
+[32m>> [39m0 paths cleaned.
+
+[4mRunning "useminPrepare" task[24m
+
+[4mRunning "useminPrepare:html" (useminPrepare) task[24m
+Verifying property [36museminPrepare.html[39m exists in config...[32mOK[39m
+Files: [36mpublic/index.html[39m -> [36mhtml[39m
+Options: [36mdest="dist"[39m
+Going through [36mpublic/index.html[39m to update the config
+Looking for build script HTML comment blocks
+
+[1mConfiguration is now:[22m
+
+[1m  concat:[22m
+  { options: { separator: [32m';'[39m },
+  dist: 
+   { src: [ [32m'public/scripts/{,*/}*.js'[39m ],
+     dest: [32m'dist/scripts/npmstart.js'[39m },
+  generated: 
+   { files: 
+      [ { dest: [32m'.tmp/concat/assets/css/bootstrap.min.css'[39m,
+          src: [ [32m'public/assets/css/bootstrap.css'[39m ] },
+        { dest: [32m'.tmp/concat/assets/css/freelancer.min.css'[39m,
+          src: [ [32m'public/assets/css/freelancer.css'[39m ] },
+        { dest: [32m'.tmp/concat/scripts/npmstart-modules.min.js'[39m,
+          src: 
+           [ [32m'public/assets/bower_components/angular-animate/angular-animate.min.js'[39m,
+             [32m'public/assets/bower_components/angular-cookies/angular-cookies.min.js'[39m,
+             [32m'public/assets/bower_components/angular-resource/angular-resource.min.js'[39m,
+             [32m'public/assets/bower_components/angular-sanitize/angular-sanitize.min.js'[39m,
+             [32m'public/assets/bower_components/angular-route/angular-route.min.js'[39m,
+             [32m'public/assets/bower_components/angular-ui-router/release/angular-ui-router.min.js'[39m,
+             [32m'public/assets/bower_components/ngActivityIndicator/ngActivityIndicator.min.js'[39m,
+             [32m'public/assets/bower_components/angular-loading-bar/build/loading-bar.min.js'[39m ] },
+        { dest: [32m'.tmp/concat/scripts/npmstart.min.js'[39m,
+          src: 
+           [ [32m'public/scripts/app.js'[39m,
+             [32m'public/scripts/controllers/codeSample.js'[39m,
+             [32m'public/scripts/services/codeSampleService.js'[39m,
+             [32m'public/scripts/controllers/searchFormCtrl.js'[39m,
+             [32m'public/scripts/directives/codeit.js'[39m,
+             [32m'public/scripts/directives/npmDropdown.js'[39m,
+             [32m'public/scripts/directives/enterKeypress.js'[39m ] } ] } }
+
+[1m  uglify:[22m
+  { options: 
+   { banner: [32m'/*! npmstart 09-11-2014 */\n'[39m,
+     mangle: [33mfalse[39m },
+  dist: { files: { [32m'dist/scripts/<%= project.appName %>.min.js'[39m: [ [32m'dist/scripts/npmstart.js'[39m ] } },
+  generated: 
+   { files: 
+      [ { dest: [32m'dist/scripts/npmstart-modules.min.js'[39m,
+          src: [ [32m'.tmp/concat/scripts/npmstart-modules.min.js'[39m ] },
+        { dest: [32m'dist/scripts/npmstart.min.js'[39m,
+          src: [ [32m'.tmp/concat/scripts/npmstart.min.js'[39m ] } ] } }
+
+[1m  cssmin:[22m
+  { generated: 
+   { files: 
+      [ { dest: [32m'dist/assets/css/bootstrap.min.css'[39m,
+          src: [ [32m'.tmp/concat/assets/css/bootstrap.min.css'[39m ] },
+        { dest: [32m'dist/assets/css/freelancer.min.css'[39m,
+          src: [ [32m'.tmp/concat/assets/css/freelancer.min.css'[39m ] } ] } }
+
+[4mRunning "concurrent:dist" (concurrent) task[24m
+Verifying property [36mconcurrent.dist[39m exists in config...[32mOK[39m
+Files: [33m[no src][39m -> [36mdist[39m
+Options: [36mlimit=8[39m
+    
+    [4mInitializing[24m
+    Command-line options: [36m--verbose[39m
+    
+    Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+    
+    [1mRegistering Gruntfile tasks.[22m
+    
+    [1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Loading "autoprefixer.js" tasks...[32mOK[39m
+    + [36mautoprefixer[39m
+    
+    [1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Loading "concurrent.js" tasks...[32mOK[39m
+    + [36mconcurrent[39m
+    
+    [1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Loading "clean.js" tasks...[32mOK[39m
+    + [36mclean[39m
+    
+    [1mRegistering "grunt-contrib-coffee" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Loading "coffee.js" tasks...[32mOK[39m
+    + [36mcoffee[39m
+    
+    [1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Loading "compass.js" tasks...[32mOK[39m
+    + [36mcompass[39m
+    
+    [1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Loading "concat.js" tasks...[32mOK[39m
+    + [36mconcat[39m
+    
+    [1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Loading "connect.js" tasks...[32mOK[39m
+    + [36mconnect[39m
+    
+    [1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Loading "copy.js" tasks...[32mOK[39m
+    + [36mcopy[39m
+    
+    [1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Loading "cssmin.js" tasks...[32mOK[39m
+    + [36mcssmin[39m
+    
+    [1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Loading "htmlmin.js" tasks...[32mOK[39m
+    + [36mhtmlmin[39m
+    
+    [1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Loading "imagemin.js" tasks...[32mOK[39m
+    + [36mimagemin[39m
+    
+    [1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Loading "jshint.js" tasks...[32mOK[39m
+    + [36mjshint[39m
+    
+    [1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Loading "uglify.js" tasks...[32mOK[39m
+    + [36muglify[39m
+    
+    [1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Loading "watch.js" tasks...[32mOK[39m
+    + [36mwatch[39m
+    
+    [1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Loading "cdnify.js" tasks...[32mOK[39m
+    + [36mcdnify[39m
+    
+    [1mRegistering "grunt-karma" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Loading "grunt-karma.js" tasks...[32mOK[39m
+    + [36mkarma[39m
+    
+    [1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Loading "ngmin.js" tasks...[32mOK[39m
+    + [36mngmin[39m
+    
+    [1mRegistering "grunt-rev" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Loading "rev.js" tasks...[32mOK[39m
+    + [36mrev[39m
+    
+    [1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Loading "svgmin.js" tasks...[32mOK[39m
+    + [36msvgmin[39m
+    
+    [1mRegistering "grunt-usemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Loading "usemin.js" tasks...[32mOK[39m
+    + [36musemin[39m, [36museminPrepare[39m
+    Initializing config...[32mOK[39m
+    Loading "Gruntfile.js" tasks...[32mOK[39m
+    + [36mbuild[39m, [36mcleanup[39m, [36mdefault[39m, [36mserver[39m, [36mtest[39m
+    
+    Running tasks: [36mcopy:styles[39m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Verifying property [36mcopy.styles[39m exists in config...[32mOK[39m
+    Files: [36mpublic/assets/css/bootstrap.css[39m -> [36m.tmp/assets/css/bootstrap.css[39m
+    Files: [36mpublic/assets/css/bootstrap.min.css[39m -> [36m.tmp/assets/css/bootstrap.min.css[39m
+    Files: [36mpublic/assets/css/freelancer.css[39m -> [36m.tmp/assets/css/freelancer.css[39m
+    Options: [36mencoding="utf8"[39m, [36mprocessContent=false[39m, [36mprocessContentExclude=[][39m, [36mtimestamp=false[39m, [36mmode=false[39m
+    Copying public/assets/css/bootstrap.css -> .tmp/assets/css/bootstrap.css
+    Reading public/assets/css/bootstrap.css...[32mOK[39m
+    Writing .tmp/assets/css/bootstrap.css...[32mOK[39m
+    Copying public/assets/css/bootstrap.min.css -> .tmp/assets/css/bootstrap.min.css
+    Reading public/assets/css/bootstrap.min.css...[32mOK[39m
+    Writing .tmp/assets/css/bootstrap.min.css...[32mOK[39m
+    Copying public/assets/css/freelancer.css -> .tmp/assets/css/freelancer.css
+    Reading public/assets/css/freelancer.css...[32mOK[39m
+    Writing .tmp/assets/css/freelancer.css...[32mOK[39m
+    Copied 3 files
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2014-11-10 06:13:10 UTC)
+    loading tasks   4ms  ▇▇▇▇▇▇▇▇ 16%
+    copy:styles    20ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 80%
+    Total 25ms
+        
+    [4mInitializing[24m
+    Command-line options: [36m--verbose[39m
+    
+    Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+    
+    [1mRegistering Gruntfile tasks.[22m
+    
+    [1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Loading "autoprefixer.js" tasks...[32mOK[39m
+    + [36mautoprefixer[39m
+    
+    [1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Loading "concurrent.js" tasks...[32mOK[39m
+    + [36mconcurrent[39m
+    
+    [1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Loading "clean.js" tasks...[32mOK[39m
+    + [36mclean[39m
+    
+    [1mRegistering "grunt-contrib-coffee" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Loading "coffee.js" tasks...[32mOK[39m
+    + [36mcoffee[39m
+    
+    [1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Loading "compass.js" tasks...[32mOK[39m
+    + [36mcompass[39m
+    
+    [1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Loading "concat.js" tasks...[32mOK[39m
+    + [36mconcat[39m
+    
+    [1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Loading "connect.js" tasks...[32mOK[39m
+    + [36mconnect[39m
+    
+    [1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Loading "copy.js" tasks...[32mOK[39m
+    + [36mcopy[39m
+    
+    [1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Loading "cssmin.js" tasks...[32mOK[39m
+    + [36mcssmin[39m
+    
+    [1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Loading "htmlmin.js" tasks...[32mOK[39m
+    + [36mhtmlmin[39m
+    
+    [1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Loading "imagemin.js" tasks...[32mOK[39m
+    + [36mimagemin[39m
+    
+    [1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Loading "jshint.js" tasks...[32mOK[39m
+    + [36mjshint[39m
+    
+    [1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Loading "uglify.js" tasks...[32mOK[39m
+    + [36muglify[39m
+    
+    [1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Loading "watch.js" tasks...[32mOK[39m
+    + [36mwatch[39m
+    
+    [1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Loading "cdnify.js" tasks...[32mOK[39m
+    + [36mcdnify[39m
+    
+    [1mRegistering "grunt-karma" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Loading "grunt-karma.js" tasks...[32mOK[39m
+    + [36mkarma[39m
+    
+    [1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Loading "ngmin.js" tasks...[32mOK[39m
+    + [36mngmin[39m
+    
+    [1mRegistering "grunt-rev" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Loading "rev.js" tasks...[32mOK[39m
+    + [36mrev[39m
+    
+    [1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Loading "svgmin.js" tasks...[32mOK[39m
+    + [36msvgmin[39m
+    
+    [1mRegistering "grunt-usemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Loading "usemin.js" tasks...[32mOK[39m
+    + [36musemin[39m, [36museminPrepare[39m
+    Initializing config...[32mOK[39m
+    Loading "Gruntfile.js" tasks...[32mOK[39m
+    + [36mbuild[39m, [36mcleanup[39m, [36mdefault[39m, [36mserver[39m, [36mtest[39m
+    
+    Running tasks: [36msvgmin[39m
+    
+    [4mRunning "svgmin" task[24m
+    
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+    Verifying property [36msvgmin.dist[39m exists in config...[32mOK[39m
+    Options: [36m(none)[39m
+    Total saved: 0 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2014-11-10 06:13:10 UTC)
+    loading tasks   7ms  ▇▇▇ 6%
+    svgmin:dist    99ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 86%
+    Total 115ms
+        
+    [4mInitializing[24m
+    Command-line options: [36m--verbose[39m
+    
+    Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+    
+    [1mRegistering Gruntfile tasks.[22m
+    
+    [1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-autoprefixer/package.json...[32mOK[39m
+    Loading "autoprefixer.js" tasks...[32mOK[39m
+    + [36mautoprefixer[39m
+    
+    [1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-concurrent/package.json...[32mOK[39m
+    Loading "concurrent.js" tasks...[32mOK[39m
+    + [36mconcurrent[39m
+    
+    [1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-clean/package.json...[32mOK[39m
+    Loading "clean.js" tasks...[32mOK[39m
+    + [36mclean[39m
+    
+    [1mRegistering "grunt-contrib-coffee" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-coffee/package.json...[32mOK[39m
+    Loading "coffee.js" tasks...[32mOK[39m
+    + [36mcoffee[39m
+    
+    [1mRegistering "grunt-contrib-compass" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-compass/package.json...[32mOK[39m
+    Loading "compass.js" tasks...[32mOK[39m
+    + [36mcompass[39m
+    
+    [1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-concat/package.json...[32mOK[39m
+    Loading "concat.js" tasks...[32mOK[39m
+    + [36mconcat[39m
+    
+    [1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-connect/package.json...[32mOK[39m
+    Loading "connect.js" tasks...[32mOK[39m
+    + [36mconnect[39m
+    
+    [1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-copy/package.json...[32mOK[39m
+    Loading "copy.js" tasks...[32mOK[39m
+    + [36mcopy[39m
+    
+    [1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-cssmin/package.json...[32mOK[39m
+    Loading "cssmin.js" tasks...[32mOK[39m
+    + [36mcssmin[39m
+    
+    [1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-htmlmin/package.json...[32mOK[39m
+    Loading "htmlmin.js" tasks...[32mOK[39m
+    + [36mhtmlmin[39m
+    
+    [1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-imagemin/package.json...[32mOK[39m
+    Loading "imagemin.js" tasks...[32mOK[39m
+    + [36mimagemin[39m
+    
+    [1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-jshint/package.json...[32mOK[39m
+    Loading "jshint.js" tasks...[32mOK[39m
+    + [36mjshint[39m
+    
+    [1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-uglify/package.json...[32mOK[39m
+    Loading "uglify.js" tasks...[32mOK[39m
+    + [36muglify[39m
+    
+    [1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-contrib-watch/package.json...[32mOK[39m
+    Loading "watch.js" tasks...[32mOK[39m
+    + [36mwatch[39m
+    
+    [1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-google-cdn/package.json...[32mOK[39m
+    Loading "cdnify.js" tasks...[32mOK[39m
+    + [36mcdnify[39m
+    
+    [1mRegistering "grunt-karma" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-karma/package.json...[32mOK[39m
+    Loading "grunt-karma.js" tasks...[32mOK[39m
+    + [36mkarma[39m
+    
+    [1mRegistering "grunt-ngmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-ngmin/package.json...[32mOK[39m
+    Loading "ngmin.js" tasks...[32mOK[39m
+    + [36mngmin[39m
+    
+    [1mRegistering "grunt-rev" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-rev/package.json...[32mOK[39m
+    Loading "rev.js" tasks...[32mOK[39m
+    + [36mrev[39m
+    
+    [1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-svgmin/package.json...[32mOK[39m
+    Loading "svgmin.js" tasks...[32mOK[39m
+    + [36msvgmin[39m
+    
+    [1mRegistering "grunt-usemin" local Npm module tasks.[22m
+    Reading /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Parsing /Users/verchol/dev/npmstart/node_modules/grunt-usemin/package.json...[32mOK[39m
+    Loading "usemin.js" tasks...[32mOK[39m
+    + [36musemin[39m, [36museminPrepare[39m
+    Initializing config...[32mOK[39m
+    Loading "Gruntfile.js" tasks...[32mOK[39m
+    + [36mbuild[39m, [36mcleanup[39m, [36mdefault[39m, [36mserver[39m, [36mtest[39m
+    
+    Running tasks: [36mhtmlmin[39m
+    
+    [4mRunning "htmlmin" task[24m
+    
+    [4mRunning "htmlmin:dist" (htmlmin) task[24m
+    Verifying property [36mhtmlmin.dist[39m exists in config...[32mOK[39m
+    Files: [36mpublic/index.html[39m -> [36mdist/index.html[39m
+    Files: [36mpublic/index2.html[39m -> [36mdist/index2.html[39m
+    Files: [36mpublic/progress.html[39m -> [36mdist/progress.html[39m
+    Files: [36mpublic/views/code-sample.html[39m -> [36mdist/views/code-sample.html[39m
+    Files: [36mpublic/views/search-form.html[39m -> [36mdist/views/search-form.html[39m
+    Options: [36m(none)[39m
+    Reading public/index.html...[32mOK[39m
+    Writing dist/index.html...[32mOK[39m
+    Minified dist/index.html 27.61 kB → 27.6 kB
+    Reading public/index2.html...[32mOK[39m
+    Writing dist/index2.html...[32mOK[39m
+    Minified dist/index2.html 25.9 kB → 25.9 kB
+    Reading public/progress.html...[32mOK[39m
+    Writing dist/progress.html...[32mOK[39m
+    Minified dist/progress.html 832 B → 831 B
+    Reading public/views/code-sample.html...[32mOK[39m
+    Writing dist/views/code-sample.html...[32mOK[39m
+    Minified dist/views/code-sample.html 2.16 kB → 2.16 kB
+    Reading public/views/search-form.html...[32mOK[39m
+    Writing dist/views/search-form.html...[32mOK[39m
+    Minified dist/views/search-form.html 781 B → 752 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2014-11-10 06:13:10 UTC)
+    loading tasks    7ms  ▇▇▇ 6%
+    htmlmin:dist   113ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 93%
+    Total 121ms
+    
+
+Execution Time (2014-11-10 06:13:05 UTC)
+loading tasks         3ms  0%
+clean:dist           93ms  0%
+clean:server          1ms  0%
+clean:dist            3ms  0%
+useminPrepare:html   23ms  0%
+concurrent:dist     33.7s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 100%
+Total 33.8s
+
