@@ -5,6 +5,7 @@
 /.bower-tmp
 /.bower-components
 /.tmp
+/dist
 /public/assets/styles
 /node_modules
 /public/assets/bower_components
