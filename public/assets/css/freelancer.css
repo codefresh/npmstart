@@ -207,7 +207,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width: 360px) and (max-width: 767px) {
+@media(min-width: 280px) and (max-width: 767px) {
     .navbar-fixed-top .navbar-brand img {
         width: auto;
         height: 26px;
@@ -245,11 +245,11 @@ header .intro-text .skills {
     outline: 0;
     color: #2c3e50;
     background-color: #ffffff;
-    border-color: #18bc9c;
+    border-color: #dce4ec;
     z-index: 5;
 }
 .navbar .search-sample .form-control:focus {
-    border-color: #18bc9c;
+    border-color: #dce4ec;
     outline: 0;
 }
 
@@ -257,7 +257,7 @@ header .intro-text .skills {
 .navbar .search-sample .dropdown-menu > li > a:focus {
     color: #ffffff;
     text-decoration: none;
-    background-color: #18bc9c;
+    background-color: #dce4ec;
 }
 
 section {
@@ -675,4 +675,58 @@ footer .footer-below {
 }
 .fa.fa-sourcegraph:before {
     content: "\2731";
+}
+
+.ribbon-wrapper-green {
+    width: 145px;
+    height: 148px;
+    overflow: hidden;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.ribbon-green {
+    /*font: bold 15px Sans-Serif;*/
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a242f;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.4) 0px 1px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    padding: 16px 0;
+    left: -5px;
+    top: 25px;
+    width: 197px;
+    background-color: #BFDC7A;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+    background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+    background-image:    -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+    background-image:     -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+    background-image:      -o-linear-gradient(top, #BFDC7A, #8EBF45);
+    color: #6a6340;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+    content: "";
+    border-top:   3px solid #6e8900;
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+
+.ribbon-green:before {
+    left: 0;
+}
+.ribbon-green:after {
+    right: 0;
 }
