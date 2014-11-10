@@ -213,6 +213,9 @@ header .intro-text .skills {
 }
 
 @media(min-width: 280px) and (max-width: 767px) {
+    .navbar-fixed-top .navbar-brand {
+        padding: 16.5px 15px 20.5px;
+    }
     .navbar-fixed-top .navbar-brand img {
         width: auto;
         height: 26px;
