@@ -291,7 +291,6 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'useminPrepare',
-    'images',
     'autoprefixer',
     'concat',
     'copy:dist',
@@ -300,7 +299,8 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'rev',
-    'usemin'
+    'usemin',
+    'images'
   ]);
 
   grunt.registerTask('cleanup', [

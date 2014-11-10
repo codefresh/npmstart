@@ -1,0 +1,44 @@
+<!-- <div class="input-group-btn">
+   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">{{currentProvider.name}}<span class="caret"></span></button>
+   <ul class="dropdown-menu" role="menu">
+       <li><a href="#"><i class="fa fa-github"></i> GitHub</a></li>
+       <li><a href="#"><i class="fa fa-">&#x2731;</i> Sourcegraph</a></li>
+   </ul>
+</div>-->
+<!--
+<div class="row">
+    <div class="col-sm-10 col-sm-offset-1 center">
+        <form class="search-sample" role="form">
+            <div class="form-group">
+                <div class="input-group">
+                    <div dropdown-select="providers"
+                         dropdown-model="currentProvider"
+                         dropdown-item-label="name" >
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+-->
+<div class="row">
+    <div class="col-sm-12 center" ng-show="AILoading" data-ng-activity-indicator="SpinnerDark"></div>
+    <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection">
+        <div class="portfolio-item">
+            <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-caption">
+                    <div class="portfolio-caption-content">
+                        <codeit style="z-index:1001">
+                        <div id="progress" style="z-index:1000"></div>
+                    </div>
+                </div>
+                <div class="portfolio-caption-thumbnail {{sampleItem.id}}">
+                    <img ng-src="assets/images/portfolio/logo/{{sampleItem['caption-image']}}" class="img-responsive" alt="">
+                    <p>{{sampleItem['caption-text']}}</p>
+                </div>
+            </a>
+            <a class="repo-link" href="{{sampleItem['caption-links'][0].link}}" ng-show="sampleItem['caption-links'][0].link"><i class="fa fa-github"></i>{{sampleItem['caption-links'][0].name}}</a>
+        </div>
+    </div>
+</div>
