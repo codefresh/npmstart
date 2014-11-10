@@ -158,6 +158,10 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+.navbar-brand {
+    padding: 11.5px 15px 20.5px;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -199,6 +203,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        padding: 15.5px 15px 20.5px;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand img {
@@ -257,7 +262,7 @@ header .intro-text .skills {
 .navbar .search-sample .dropdown-menu > li > a:focus {
     color: #ffffff;
     text-decoration: none;
-    background-color: #dce4ec;
+    background-color: #2c3e50;
 }
 
 section {
@@ -368,6 +373,7 @@ section.success {
     max-width: 50%;
     margin-left: 62px;
     margin-right: 33px;
+    max-height: 132px;
     /*margin: 0 auto;*/
 }
 
@@ -375,6 +381,8 @@ section.success {
     padding-left: 62px;
     padding-right: 33px;
     padding-bottom: 25px;
+    height: 47%;
+    overflow: hidden;
 }
 
 #portfolio * {
