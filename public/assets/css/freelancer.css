@@ -435,6 +435,13 @@ section.success {
     margin-right: 5px;
 }
 
+.search-sample .dropdown-menu > .disabled > a,
+.search-sample .dropdown-menu > .disabled > a:hover,
+.search-sample .dropdown-menu > .disabled > a:focus {
+    color: #b4bcc2 !important;
+    background-color: transparent !important;
+}
+
 @media(min-width:1200px) {
     #portfolio .portfolio-item .portfolio-link .portfolio-caption-thumbnail {
         height: 263px;
@@ -686,11 +693,13 @@ footer .footer-below {
         background-color: #0099ff;
 }
 
-.fa.fa-sourcegraph{
+.fa.fa-sourcegraph,
+.fa.cfs.sourcegraph{
     font-family: Arial;
     font-size: 15px !important;
 }
-.fa.fa-sourcegraph:before {
+.fa.fa-sourcegraph:before,
+.fa.cfs.sourcegraph:before {
     content: "\2731";
 }
 
