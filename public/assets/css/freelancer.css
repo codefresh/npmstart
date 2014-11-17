@@ -84,6 +84,47 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+
+.right-inner-addon > a,
+.left-inner-addon > a{
+    color: #2c3e50;
+    padding: 10px 12px;
+    z-index: 5;
+}
+
+.right-inner-addon > a:hover,
+.left-inner-addon > a:hover,
+.right-inner-addon > a:focus,
+.left-inner-addon > a:focus {
+    color: #18bc9c;
+}
+
+.right-inner-addon > a > i,
+.left-inner-addon > a > i {
+    pointer-events: none;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon > a {
+    position: absolute;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon > a{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
 .btn-default2 {
     background-color: #ffffff;
     border: 2px solid #dce4ec;
