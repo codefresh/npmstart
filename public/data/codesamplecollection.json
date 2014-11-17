@@ -1,6 +1,7 @@
 [
   {
     "id": "express",
+    "name": "express",
     "type": "1",
     "ready": true,
     "caption-text": "Web application framework for node",
@@ -16,6 +17,7 @@
   },
   {
     "id": "mongo",
+    "name": "mongo",
     "type": "1",
     "ready": false,
     "caption-text": "An open source NoSQL database",
@@ -31,6 +33,7 @@
   },
   {
     "id": "heroku",
+    "name": "heroku",
     "type": "1",
     "ready": false,
     "caption-text": "An cloud platform as a service supporting node",
@@ -46,6 +49,7 @@
   },
   {
     "id": "spyjs",
+    "name": "spyjs",
     "type": "1",
     "ready": false,
     "caption-text": "spy-js is a tool for JavaScript developers that allows to simply debug/trace/profile JavaScript",
@@ -61,6 +65,7 @@
   },
   {
     "id": "mocha",
+    "name": "mocha",
     "type": "1",
     "ready": false,
     "caption-text": "Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. ",
@@ -76,6 +81,7 @@
   },
   {
     "id": "restify",
+    "name": "restify",
     "type": "1",
     "ready": false,
     "caption-text": "Restify is a node.js module built specifically to enable you to build correct REST web services.",
@@ -91,6 +97,7 @@
   },
   {
     "id": "jade",
+    "name": "jade",
     "type": "1",
     "ready": false,
     "caption-text": "Jade is a high performance template engine heavily influenced by Haml and implemented with JavaScript for node.",

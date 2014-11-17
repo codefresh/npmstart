@@ -13,6 +13,8 @@ var app = angular.module('npmStartApp');
 app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', function ($scope, $location, $http, CodeSampleService, $activityIndicator) {
     $activityIndicator.startAnimating();
 
+    $scope.searchString = '';
+
     $scope.providers = CodeSampleService.getAllSampleProviders();
     $scope.currentProvider = {}
     angular.copy($scope.providers[0], $scope.currentProvider);
@@ -31,6 +33,10 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
             }
         }
     );
+
+    $scope.$on('filterSearchExampleEvent', function(event, searchString){
+        $scope.searchString = searchString;
+    });
 
     CodeSampleService.getSampleCollection().success(function(data, status, headers, config) {
 
