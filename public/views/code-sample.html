@@ -27,6 +27,12 @@
     <div class="col-sm-12 center" ng-show="(codeSampleCollection | filter:searchString).length==0">
         <p class="text-center">Sorry No Result Found</p>
     </div>
+    <div class="col-sm-12 cs-toolbar">
+        <div class="btn-group pull-right">
+            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'listView'" uncheckable><i class="glyphicon glyphicon-th-large"></i></a>
+            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'gridView'" uncheckable><i class="glyphicon glyphicon-th-list"></i></a>
+        </div>
+    </div>
     <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection | filter:searchString:strict">
         <div class="portfolio-item">
             <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">

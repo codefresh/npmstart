@@ -14,6 +14,7 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
     $activityIndicator.startAnimating();
 
     $scope.searchString = '';
+    $scope.viewModeModel = 'listView';
 
     $scope.providers = CodeSampleService.getAllSampleProviders();
     $scope.currentProvider = {}

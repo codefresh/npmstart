@@ -16,6 +16,7 @@ angular.module('npmStartApp', [
     'ngSanitize',
     'ngRoute',
     'ui.router',
+    'ui.bootstrap',
     'ngActivityIndicator',
     'chieffancypants.loadingBar',
     'ngDropdowns',
