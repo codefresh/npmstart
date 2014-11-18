@@ -1,0 +1,18 @@
+<div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection | filter:searchString:strict">
+    <div class="portfolio-item">
+        <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-caption">
+                <div class="portfolio-caption-content">
+                    <codeit style="z-index:1001" ng-show="sampleItem.ready"/>
+                    <div id="progress" style="z-index:1000"></div>
+                </div>
+            </div>
+            <div class="portfolio-caption-thumbnail {{sampleItem.id}}">
+                <img ng-src="assets/images/portfolio/logo/{{sampleItem['caption-image']}}" class="img-responsive" alt="">
+                <p>{{sampleItem['caption-text']}}</p>
+            </div>
+        </a>
+        <a class="repo-link" href="{{sampleItem['caption-links'][0].link}}" ng-show="sampleItem['caption-links'][0].link"><i class="fa fa-github"></i>{{sampleItem['caption-links'][0].name}}</a>
+        <div class="ribbon-wrapper-green" ng-hide="sampleItem.ready"><div class="ribbon-green">Comming Soon</div></div>
+    </div>
+</div>

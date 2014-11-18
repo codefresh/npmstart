@@ -440,6 +440,13 @@ section.success {
     /*z-index: 2;*/
 }
 
+#portfolio .ui-grid {
+    height: 380px;
+}
+#portfolio .ui-grid-row, #portfolio .ui-grid-cell, #portfolio .ui-grid-cell .ui-grid-vertical-bar {
+    height: 45px;
+}
+
 .search-sample {
     z-index: 3;
     font-weight: normal;

@@ -27,28 +27,19 @@
     <div class="col-sm-12 center" ng-show="(codeSampleCollection | filter:searchString).length==0">
         <p class="text-center">Sorry No Result Found</p>
     </div>
-    <div class="col-sm-12 cs-toolbar">
+    <div class="col-sm-12 cs-toolbar clearfix">
         <div class="btn-group pull-right">
-            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'listView'" uncheckable><i class="glyphicon glyphicon-th-large"></i></a>
-            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'gridView'" uncheckable><i class="glyphicon glyphicon-th-list"></i></a>
+            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'listView'" ng-click="setViewMode('listView')"><i class="glyphicon glyphicon-th-large"></i></a>
+            <a class="btn btn-primary btn-sm" ng-model="viewModeModel" btn-radio="'gridView'" ng-click="setViewMode('gridView')"><i class="glyphicon glyphicon-th-list"></i></a>
         </div>
     </div>
-    <div data-ng-hide="AILoading" data-ng-show="!AILoading" class="col-sm-4 portfolio-item" ng-repeat="sampleItem in codeSampleCollection | filter:searchString:strict">
-        <div class="portfolio-item">
-            <a id="{{sampleItem.id}}" href="javascript:void(0)" class="portfolio-link" data-toggle="modal">
-                <div class="portfolio-caption">
-                    <div class="portfolio-caption-content">
-                        <codeit style="z-index:1001" ng-show="sampleItem.ready"/>
-                        <div id="progress" style="z-index:1000"></div>
-                    </div>
-                </div>
-                <div class="portfolio-caption-thumbnail {{sampleItem.id}}">
-                    <img ng-src="assets/images/portfolio/logo/{{sampleItem['caption-image']}}" class="img-responsive" alt="">
-                    <p>{{sampleItem['caption-text']}}</p>
-                </div>
-            </a>
-            <a class="repo-link" href="{{sampleItem['caption-links'][0].link}}" ng-show="sampleItem['caption-links'][0].link"><i class="fa fa-github"></i>{{sampleItem['caption-links'][0].name}}</a>
-            <div class="ribbon-wrapper-green" ng-hide="sampleItem.ready"><div class="ribbon-green">Comming Soon</div></div>
+    <div class="sample-wrapper clearfix">
+        <div class="listViewMode clearfix" ng-if="viewModeModel === 'listView'">
+            <div ng-include="'/views/code-sample-list-view.html'"></div>
+        </div>
+        <div class="gridViewMode clearfix" ng-if="viewModeModel === 'gridView'">
+            <div ng-include="'/views/code-sample-grid-view.html'"></div>
         </div>
     </div>
+
 </div>

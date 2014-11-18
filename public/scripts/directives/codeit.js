@@ -20,13 +20,13 @@ app.directive('codeit', ['$http', 'cfpLoadingBar', function ($http, cfpLoadingBa
 
 
         $scope.codeit = function () {
+            console.log('clicked');
             if (codeButton.status === "ready") {
                 window.open(codeButton.url, "_blank");
             }
             cfpLoadingBar.start();
             codeButton.title = "Setting environment ...";
             codeButton.status = "inprogress";
-
 
             $http.post('/env').success(function (data) {
                 codeButton.status = "ready";
