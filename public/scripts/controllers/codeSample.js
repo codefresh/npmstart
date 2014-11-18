@@ -11,31 +11,22 @@
 
 var app = angular.module('npmStartApp');
 
-app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', 'localStorageService', function ($scope, $location, $http, CodeSampleService, $activityIndicator, localStorageService) {
+app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', 'localStorageService', '$filter', function ($scope, $location, $http, CodeSampleService, $activityIndicator, localStorageService, $filter) {
     $activityIndicator.startAnimating();
 
     $scope.searchString = '';
-    $scope.viewModeModel = '';
-    $scope.gridOptions = {};
+    $scope.codeSampleCollectionResult = [];
 
-    $scope.gridOptions.columnDefs = [
+    $scope.viewModeModel = '';
+    $scope.gridOptions = {enableHorizontalScrollbar: false, data: 'codeSampleCollectionResult'};
+
+    $scope.gridOptions
+        .columnDefs = [
         { name:'Logo', field: 'caption-image', cellTemplate:'<img ng-src="assets/images/portfolio/logo/{{COL_FIELD}}" class="img-responsive" style="height: 30px;" alt="">' },
         { name:'Name', field: 'name' },
         { name:'Description', field: 'caption-text' },
         { name: 'Ready', field: 'ready', cellTemplate:'<codeit style="z-index:1001" ng-show="{{COL_FIELD}}"/> <div class="ui-grid-cell-contents" ng-show="{{!COL_FIELD}}">Comming Soon!</div>'}
-    ];
-
-    /*
-
-     field: 'ready',
-     cellClass: function(grid, row, col, rowRenderIndex, colRenderIndex) {
-     return
-     if (grid.getCellValue(row,col) === 'ready') {
-     return 'blue';
-     }
-     },
-     cellTemplate:'<codeit style="z-index:1001" ng-show="ready"/>' }
-    * */
+        ];
 
     /**/
     var viewModeModelName = "portfolioViewMode";
@@ -77,29 +68,27 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
             if ( $scope.currentProvider.name === newValue ) {
                 return;
             }
-        }
-    );
+    });
 
     $scope.$on('filterSearchExampleEvent', function(event, searchString){
         $scope.searchString = searchString;
+        $scope.codeSampleCollectionResult = $scope.searchString ? $filter('filter')($scope.codeSampleCollection, $scope.searchString) : $scope.codeSampleCollection;
     });
 
     CodeSampleService.getSampleCollection().success(function(data, status, headers, config) {
         $scope.codeSampleCollection = data;
-        /*  $scope.code = function()
-         {
-         $http.post('/env').success(function(data)
-         {
 
-         this.deploy = data;
-         this.deploy.title = "code it" + $scope.$id;
-
-         }).error(function(data)
-         {
-         alert(data);
-         });
+        $scope.codeSampleCollectionResult = data;
+        /*  $scope.code = function() {
+         $http.post('/env').success(function(data) {
+             this.deploy = data;
+             this.deploy.title = "code it" + $scope.$id;
+             }).error(function(data) {
+                alert(data);
+             });
          }*/
         $activityIndicator.stopAnimating();
+
     });
 
     /**/
@@ -109,11 +98,11 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
             /*if ( newValue === oldValue ) {
                 return;
             }
-
             if ( $scope.codeSampleCollection === newValue ) {
                 return;
             }*/
-            $scope.gridOptions.data = newValue;
+            //$scope.gridOptions.data = $scope.codeSampleCollection;
+            console.log($scope.codeSampleCollection);
         }
     );
 

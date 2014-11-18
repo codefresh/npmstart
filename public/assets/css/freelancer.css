@@ -441,10 +441,10 @@ section.success {
 }
 
 #portfolio .ui-grid {
-    height: 380px;
+    height: 370px;
 }
 #portfolio .ui-grid-row, #portfolio .ui-grid-cell, #portfolio .ui-grid-cell .ui-grid-vertical-bar {
-    height: 45px;
+    height: 50px;
 }
 
 .search-sample {
