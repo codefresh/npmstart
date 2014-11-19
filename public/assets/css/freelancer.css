@@ -452,7 +452,16 @@ section.success {
     height: 383px;
 }
 #portfolio .ui-grid-row, #portfolio .ui-grid-cell, #portfolio .ui-grid-cell .ui-grid-vertical-bar {
-    height: 50px;
+    height: 58px;
+}
+#portfolio .ui-grid-row-selected .ui-grid-cell {
+    background-color: #dde4e6 !important;
+}
+#portfolio .ui-grid-row:hover .ui-grid-cell {
+    background-color: #ecf0f1 !important;
+}
+#portfolio .ui-grid-row-selected.ui-grid-row:hover .ui-grid-cell {
+    background-color: #dde4e6 !important;
 }
 
 #portfolio .ui-grid-row .list-group {
@@ -462,9 +471,14 @@ section.success {
 #portfolio .ui-grid-row a img {
     width: 50px;
 }
+#portfolio .ui-grid-row .list-group-item {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
 #portfolio .ui-grid-row a.list-group-item {
     color: #2c3e50;
 }
+
 #portfolio .ui-grid-row a.list-group-item .list-group-item-heading {
     color: #2c3e50;
 }
@@ -488,10 +502,10 @@ section.success {
     padding: 0px;
 }
 #portfolio .ui-grid-row .action-field > p.list-group-item-text {
-    padding-top: 16px;
+    padding-top: 20px;
 }
 #portfolio .ui-grid-row .action-field .btn.btn-sm {
-    margin-top: 7px;
+    margin-top: 12px;
 }
 
 .search-sample {

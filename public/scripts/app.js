@@ -22,7 +22,8 @@ angular.module('npmStartApp', [
     'ngDropdowns',
     'duScroll',
     'LocalStorageModule',
-    'ui.grid'
+    'ui.grid',
+    'ui.grid.selection'
 ])
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         //delete $httpProvider.defaults.headers.common['X-Requested-With'];

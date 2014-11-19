@@ -10,7 +10,7 @@
 
 var app = angular.module('npmStartApp');
 
-app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', 'localStorageService', '$filter', function ($scope, $location, $http, CodeSampleService, $activityIndicator, localStorageService, $filter) {
+app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', 'localStorageService', '$filter', '$interval', function ($scope, $location, $http, CodeSampleService, $activityIndicator, localStorageService, $filter, $interval) {
     $activityIndicator.startAnimating();
 
     $scope.searchString = '';
@@ -18,11 +18,10 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
 
     $scope.viewModeModel = '';
     $scope.gridOptions = {
-        enableHorizontalScrollbar: false,
-        data: 'codeSampleCollectionResult',
         enableRowSelection: true,
-        enableSelectAll: true,
-        selectionRowHeaderWidth: 35
+        enableRowHeaderSelection: false,
+        enableHorizontalScrollbar: false,
+        data: 'codeSampleCollectionResult'
     };
 
     $scope.gridOptions
@@ -51,6 +50,9 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
     $scope.gridOptions.multiSelect = false;
     $scope.gridOptions.modifierKeysToMultiSelect = false;
     $scope.gridOptions.noUnselect = true;
+    $scope.gridOptions.onRegisterApi = function( gridApi ) {
+        $scope.gridApi = gridApi;
+    };
 
     /**/
     var viewModeModelName = "portfolioViewMode";
@@ -103,6 +105,8 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
         $scope.codeSampleCollection = data;
 
         $scope.codeSampleCollectionResult = data;
+
+        $interval( function() {$scope.gridApi.selection.selectRow($scope.gridOptions.data[0]);}, 0, 1);
         /*  $scope.code = function() {
          $http.post('/env').success(function(data) {
          this.deploy = data;
@@ -115,12 +119,5 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
 
     });
 
-    /**/
-
-
-    /**/
-
 }]);
-
-
 
