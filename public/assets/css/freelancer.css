@@ -323,6 +323,14 @@ section.success {
     background: #18bc9c;
 }
 
+#loading-bar .bar {
+    background: #18bc9c;
+}
+#loading-bar-spinner .spinner-icon {
+    border-top-color: #18bc9c;
+    border-left-color: #18bc9c;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -441,10 +449,46 @@ section.success {
 }
 
 #portfolio .ui-grid {
-    height: 370px;
+    height: 383px;
 }
 #portfolio .ui-grid-row, #portfolio .ui-grid-cell, #portfolio .ui-grid-cell .ui-grid-vertical-bar {
     height: 50px;
+}
+
+#portfolio .ui-grid-row .list-group {
+    height: 100%;
+}
+
+#portfolio .ui-grid-row a img {
+    width: 50px;
+}
+#portfolio .ui-grid-row a.list-group-item {
+    color: #2c3e50;
+}
+#portfolio .ui-grid-row a.list-group-item .list-group-item-heading {
+    color: #2c3e50;
+}
+#portfolio .ui-grid-row .list-group-item-heading {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#portfolio .ui-grid-row .list-group-item-text {
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+#portfolio .ui-grid-row .name-field .list-group-item-heading,
+#portfolio .ui-grid-row .name-field .list-group-item-text {
+    padding-left: 60px;
+}
+#portfolio .ui-grid-row .action-field {
+    text-align: center;
+    height: 100%;
+    padding: 0px;
+}
+#portfolio .ui-grid-row .action-field > p.list-group-item-text {
+    padding-top: 13px;
 }
 
 .search-sample {

@@ -34,6 +34,20 @@ app.controller('searchFormCtrl', ['$scope', '$rootScope', '$location', '$http', 
         }
     );
 
+    $scope.$watch( "searchValue", function( newValue, oldValue ) {
+            // Ignore initial setup.
+            /*if ( newValue === oldValue ) {
+                return;
+            }*/
+
+            // Ignore if form already mirrors new value.
+            /*if ( $scope.searchValue === newValue ) {
+                return;
+            }*/
+            $scope.search();
+        }
+    );
+
     $scope.clear = function () {
         $scope.searchValue = '';
         $rootScope.$broadcast('filterSearchExampleEvent', $scope.searchValue);
@@ -50,11 +64,10 @@ app.controller('searchFormCtrl', ['$scope', '$rootScope', '$location', '$http', 
         console.log( $scope.toExampleSection() );
         //workaround, use after keydown event
         $timeout(function() {$scope.toExampleSection();}, 5);
-
     }
 
     $document.on('scroll', function() {
-        console.log('Document scrolled to ', $document.scrollLeft(), $document.scrollTop());
+        //console.log('Document scrolled to ', $document.scrollLeft(), $document.scrollTop());
     });
 
 }]);

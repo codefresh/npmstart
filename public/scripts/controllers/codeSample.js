@@ -1,6 +1,3 @@
-
-'use strict';
-
 /**
  * @ngdoc function
  * @name npmStartApp.controller:codeSampleCtrl
@@ -8,6 +5,8 @@
  * # codeSampleCtrl
  * Controller of the npmStartApp
  */
+
+'use strict';
 
 var app = angular.module('npmStartApp');
 
@@ -18,15 +17,40 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
     $scope.codeSampleCollectionResult = [];
 
     $scope.viewModeModel = '';
-    $scope.gridOptions = {enableHorizontalScrollbar: false, data: 'codeSampleCollectionResult'};
+    $scope.gridOptions = {
+        enableHorizontalScrollbar: false,
+        data: 'codeSampleCollectionResult',
+        enableRowSelection: true,
+        enableSelectAll: true,
+        selectionRowHeaderWidth: 35
+    };
 
     $scope.gridOptions
         .columnDefs = [
-        { name:'Logo', field: 'caption-image', cellTemplate:'<img ng-src="assets/images/portfolio/logo/{{COL_FIELD}}" class="img-responsive" style="height: 30px;" alt="">' },
-        { name:'Name', field: 'name' },
-        { name:'Description', field: 'caption-text' },
-        { name: 'Ready', field: 'ready', cellTemplate:'<codeit style="z-index:1001" ng-show="{{COL_FIELD}}"/> <div class="ui-grid-cell-contents" ng-show="{{!COL_FIELD}}">Comming Soon!</div>'}
-        ];
+        { name:'Name', field: 'caption-image',
+            cellTemplate:'' +
+                '<div class="name-field list-group">' +
+                    '<a href="#" class="list-group-item">' +
+                        '<img ng-src="assets/images/portfolio/logo/{{COL_FIELD}}" class="img-responsive pull-left" alt="{{row.entity.name}}" />' +
+                        '<h4 class="list-group-item-heading">{{row.entity.name}}</h4>' +
+                        '<p class="list-group-item-text">{{row.entity["caption-text"]}}</p>' +
+                    '</a>' +
+                '</div>'
+        },
+        { name: 'Ready', width: 250, field: 'ready',
+            cellTemplate:'' +
+                '<div class="list-group">' +
+                    '<div class="list-group-item action-field">'+
+                        '<codeit style="z-index:1001" ng-if="row.entity.ready === true"/> ' +
+                        '<p class="list-group-item-text" ng-if="row.entity.ready === false">Comming Soon!</p>'+
+                    '</div>'+
+                '</div>'
+        }
+    ];
+
+    $scope.gridOptions.multiSelect = false;
+    $scope.gridOptions.modifierKeysToMultiSelect = false;
+    $scope.gridOptions.noUnselect = true;
 
     /**/
     var viewModeModelName = "portfolioViewMode";
@@ -59,15 +83,15 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
     angular.copy($scope.providers[0], $scope.currentProvider);
 
     $scope.$watch( "currentProvider.name", function( newValue, oldValue ) {
-            // Ignore initial setup.
-            if ( newValue === oldValue ) {
-                return;
-            }
-            console.log( "$watch: currentProvider changed to < " + newValue + " >");
-            // Ignore if form already mirrors new value.
-            if ( $scope.currentProvider.name === newValue ) {
-                return;
-            }
+        // Ignore initial setup.
+        if ( newValue === oldValue ) {
+            return;
+        }
+        console.log( "$watch: currentProvider changed to < " + newValue + " >");
+        // Ignore if form already mirrors new value.
+        if ( $scope.currentProvider.name === newValue ) {
+            return;
+        }
     });
 
     $scope.$on('filterSearchExampleEvent', function(event, searchString){
@@ -81,11 +105,11 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
         $scope.codeSampleCollectionResult = data;
         /*  $scope.code = function() {
          $http.post('/env').success(function(data) {
-             this.deploy = data;
-             this.deploy.title = "code it" + $scope.$id;
-             }).error(function(data) {
-                alert(data);
-             });
+         this.deploy = data;
+         this.deploy.title = "code it" + $scope.$id;
+         }).error(function(data) {
+         alert(data);
+         });
          }*/
         $activityIndicator.stopAnimating();
 
@@ -93,20 +117,10 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
 
     /**/
 
-    $scope.$watch( "codeSampleCollection", function( newValue, oldValue ) {
-            // Ignore initial setup.
-            /*if ( newValue === oldValue ) {
-                return;
-            }
-            if ( $scope.codeSampleCollection === newValue ) {
-                return;
-            }*/
-            //$scope.gridOptions.data = $scope.codeSampleCollection;
-            console.log($scope.codeSampleCollection);
-        }
-    );
 
     /**/
 
 }]);
+
+
 
