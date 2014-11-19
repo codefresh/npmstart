@@ -5,18 +5,23 @@ app.directive('codeit', ['$http', 'cfpLoadingBar', function ($http, cfpLoadingBa
     var directive = {
         restrict: 'AE',
         controller: controller,
-        template: '<button type="button" class="btn btn-primary" ng-click="codeit()">{{codeButton.title}}</button>'
-
+        template: '<button type="button" class="btn {{codeButton.bstyle}} {{codeButton.bsize}}" ng-click="codeit()">{{codeButton.title}}</button>',
+        scope: {
+            bstyle: '@',
+            bsize: '@'
+        }
     };
     //<p><a href="{{deploy.url}}" style="z-index:1001;background-color: blue;" target="_blank">{{deploy.title}}</a></p>
 //  <button type="button" class="btn btn-default" data-dismiss="modal">
 
-    return directive;
     function controller($scope) {
         var codeButton = {};
         $scope.codeButton = codeButton;
         codeButton.title = "Code It";
         codeButton.status = "init";
+
+        codeButton.bstyle = $scope.bstyle ? 'btn-' + $scope.bstyle : "primary";
+        codeButton.bsize = $scope.bsize ? 'btn-' + $scope.bsize : "";
 
 
         $scope.codeit = function () {
@@ -47,12 +52,13 @@ app.directive('codeit', ['$http', 'cfpLoadingBar', function ($http, cfpLoadingBa
         var spinnerTarget = element.children();
         var textElement = spinnerTarget.children();
 
-
         element.on('click', handler);
 
         scope.$on('$destroy', function () {
             element.off('click', handler);
         });
     }
+
+    return directive;
 
 }]);

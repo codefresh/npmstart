@@ -41,7 +41,7 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
             cellTemplate:'' +
                 '<div class="list-group">' +
                     '<div class="list-group-item action-field">'+
-                        '<codeit style="z-index:1001" ng-if="row.entity.ready === true"/> ' +
+                        '<codeit style="z-index:1001" ng-if="row.entity.ready === true" bstyle="primary" bsize="sm"/> ' +
                         '<p class="list-group-item-text" ng-if="row.entity.ready === false">Comming Soon!</p>'+
                     '</div>'+
                 '</div>'
