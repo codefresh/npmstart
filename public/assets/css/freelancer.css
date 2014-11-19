@@ -490,6 +490,9 @@ section.success {
 #portfolio .ui-grid-row .action-field > p.list-group-item-text {
     padding-top: 13px;
 }
+#portfolio .ui-grid-row .action-field .btn.btn-sm {
+    margin-top: 7px;
+}
 
 .search-sample {
     z-index: 3;
