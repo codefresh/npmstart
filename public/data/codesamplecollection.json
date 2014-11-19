@@ -6,14 +6,13 @@
     "ready": true,
     "caption-text": "Web application framework for node",
     "caption-image": "express.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"",
         "link": ""
       }
-    ]
   },
   {
     "id": "mongo",
@@ -22,14 +21,13 @@
     "ready": false,
     "caption-text": "An open source NoSQL database",
     "caption-image": "mongo.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"",
         "link": ""
       }
-    ]
   },
   {
     "id": "heroku",
@@ -38,14 +36,13 @@
     "ready": false,
     "caption-text": "An cloud platform as a service supporting node",
     "caption-image": "heroku.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"",
         "link": ""
       }
-    ]
   },
   {
     "id": "spyjs",
@@ -54,14 +51,13 @@
     "ready": false,
     "caption-text": "spy-js is a tool for JavaScript developers that allows to simply debug/trace/profile JavaScript",
     "caption-image": "spyjs.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"spy-js/spy-js",
         "link": "https://github.com/spy-js/spy-js"
       }
-    ]
   },
   {
     "id": "mocha",
@@ -70,14 +66,13 @@
     "ready": false,
     "caption-text": "Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. ",
     "caption-image": "mocha.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"mochajs/mocha",
         "link": "https://github.com/mochajs/mocha"
       }
-    ]
   },
   {
     "id": "restify",
@@ -86,14 +81,13 @@
     "ready": false,
     "caption-text": "Restify is a node.js module built specifically to enable you to build correct REST web services.",
     "caption-image": "npmblank.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"mcavage/node-restify",
         "link": "https://github.com/mcavage/node-restify"
       }
-    ]
   },
   {
     "id": "jade",
@@ -102,13 +96,12 @@
     "ready": false,
     "caption-text": "Jade is a high performance template engine heavily influenced by Haml and implemented with JavaScript for node.",
     "caption-image": "jade.png",
-    "caption-links": [
+    "caption-links":
       {
         "id": 0,
         "type": "github",
         "name" :"jadejs/jade",
         "link": "https://github.com/jadejs/jade"
       }
-    ]
   }
 ]

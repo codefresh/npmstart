@@ -24,19 +24,34 @@ app.controller('codeSampleCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
         data: 'codeSampleCollectionResult'
     };
 
-    $scope.gridOptions
-        .columnDefs = [
-        { name:'Name', field: 'caption-image',
-            cellTemplate:'' +
+    $scope.myScope = {
+        getLink : function( data ) {
+            console.log("--> ", data);
+            var str = '';
+            if(data && data["caption-links"].link.length > 0) {
+                str = data["caption-links"].link
+            } else {
+                str = "javascript:void(0);";
+            }
+            alert(str);
+            return str;
+        }
+    };
+
+    $scope.gridOptions.columnDefs = [
+        {
+            name:'Name',
+            field: 'caption-image',
+            cellTemplate: ''+
                 '<div class="name-field list-group">' +
-                    '<a href="#" class="list-group-item">' +
-                        '<img ng-src="assets/images/portfolio/logo/{{COL_FIELD}}" class="img-responsive pull-left" alt="{{row.entity.name}}" />' +
-                        '<h4 class="list-group-item-heading">{{row.entity.name}}</h4>' +
-                        '<p class="list-group-item-text">{{row.entity["caption-text"]}}</p>' +
-                    '</a>' +
+                    //ng-click="getExternalScopes().getLink(row.entity)"
+                    '<linkwrapper model="row.entity"></div>'+
                 '</div>'
         },
-        { name: 'Ready', width: 250, field: 'ready',
+        {
+            name: 'Ready',
+            width: 250,
+            field: 'ready',
             cellTemplate:'' +
                 '<div class="list-group">' +
                     '<div class="list-group-item action-field">'+
