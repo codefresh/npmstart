@@ -14,6 +14,20 @@
     ]
   },
   {
+    "id": "loopback",
+    "type": "1",
+    "caption-text": "Powerful Node.js framework for creating APIs and easily connecting to backend data sources",
+    "caption-image": "strongloop.png",
+    "caption-links": [
+      {
+        "id": 0,
+        "type": "github",
+        "name" :"Test Repo",
+        "link": "http://github.com/"
+      }
+    ]
+  },
+  {
     "id": "mongo",
     "type": "1",
     "caption-text": "An open source NoSQL database",
