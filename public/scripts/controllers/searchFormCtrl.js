@@ -10,7 +10,7 @@
 
 var app = angular.module('npmStartApp');
 
-app.controller('searchFormCtrl', ['$scope', '$location', '$http', 'CodeSampleService', '$activityIndicator', function ($scope, $location, $http, CodeSampleService, $activityIndicator) {
+app.controller('searchFormCtrl', ['$scope', '$rootScope', '$location', '$http', 'CodeSampleService', '$activityIndicator', '$document', '$timeout', function ($scope, $rootScope, $location, $http, CodeSampleService, $activityIndicator, $document, $timeout) {
     $activityIndicator.startAnimating();
 
     $scope.searchValue = '';
@@ -34,12 +34,40 @@ app.controller('searchFormCtrl', ['$scope', '$location', '$http', 'CodeSampleSer
         }
     );
 
+    $scope.$watch( "searchValue", function( newValue, oldValue ) {
+            // Ignore initial setup.
+            /*if ( newValue === oldValue ) {
+                return;
+            }*/
+
+            // Ignore if form already mirrors new value.
+            /*if ( $scope.searchValue === newValue ) {
+                return;
+            }*/
+            $scope.search();
+        }
+    );
+
     $scope.clear = function () {
         $scope.searchValue = '';
+        $rootScope.$broadcast('filterSearchExampleEvent', $scope.searchValue);
+    }
+
+    $scope.toExampleSection = function() {
+        var elem = angular.element(document.getElementById('portfolio'));
+        $document.scrollTo(elem, 0, 500);
     }
 
     $scope.search = function () {
-        console.log ("search = " + $scope.searchValue);
+        //console.log ("search = " + $scope.searchValue);
+        $rootScope.$broadcast('filterSearchExampleEvent', $scope.searchValue);
+        console.log( $scope.toExampleSection() );
+        //workaround, use after keydown event
+        $timeout(function() {$scope.toExampleSection();}, 5);
     }
+
+    $document.on('scroll', function() {
+        //console.log('Document scrolled to ', $document.scrollLeft(), $document.scrollTop());
+    });
 
 }]);

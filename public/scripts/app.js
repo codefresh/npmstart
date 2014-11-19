@@ -16,9 +16,15 @@ angular.module('npmStartApp', [
     'ngSanitize',
     'ngRoute',
     'ui.router',
+    'ui.bootstrap',
     'ngActivityIndicator',
     'chieffancypants.loadingBar',
-    'ngDropdowns'
+    'ngDropdowns',
+    'duScroll',
+    'LocalStorageModule',
+    'ui.grid',
+    'ui.grid.selection',
+    'uiGridLinkWrapper'
 ])
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         //delete $httpProvider.defaults.headers.common['X-Requested-With'];

@@ -1,5 +1,5 @@
 /.idea/
-/.bower/
+/.bower
 /.bower-cache
 /.bower-registry
 /.bower-tmp
@@ -8,3 +8,4 @@
 /public/assets/styles
 node_modules
 /public/assets/bower_components
+/dist

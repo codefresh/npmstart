@@ -10,7 +10,7 @@
     dropdown.run(['$templateCache', function ($templateCache) {
         $templateCache.put('ngDropdowns/templates/dropdownSelect.html', [
             '<div class="dropDown input-group-btn">',
-            '<button type="button" class="btn btn-default2 dropdown-toggle" data-toggle="dropdown"><i class="fa fa-{{dropdownModel[iconField]}}"></i>{{dropdownModel[labelField]}}<span class="caret"></span></button>',
+            '<button type="button" class="btn btn-default2 dropdown-toggle" data-toggle="dropdown"><i class="fa cfs {{dropdownModel[iconField]}}"></i>{{dropdownModel[labelField]}}<span class="caret"></span></button>',
             '<ul class="dropdown-menu" role="menu">',
             '<li ng-repeat="item in dropdownSelect"',
             ' class="dropdown-item"',
@@ -23,12 +23,12 @@
         ].join(''));
 
         $templateCache.put('ngDropdowns/templates/dropdownSelectItem.html', [
-            '<li ng-class="{divider: dropdownSelectItem.divider}">',
+            '<li ng-class="{divider: dropdownSelectItem.divider, disabled: !dropdownSelectItem.enabled}">',
             '<a href="#" class="dropdown-item"',
             ' ng-if="!dropdownSelectItem.divider"',
             ' ng-href="{{dropdownSelectItem.href}}"',
-            ' ng-click="selectItem()">',
-            ' <i class="fa fa-{{dropdownSelectItem[dropdownItemIcon]}}"></i>',
+            ' ng-click="selectItem();">',
+            ' <i class="fa cfs {{dropdownSelectItem[dropdownItemIcon]}}"></i>',
             '{{dropdownSelectItem[dropdownItemLabel]}}',
             '</a>',
             '</li>'
@@ -112,11 +112,14 @@
 
                 link: function (scope, element, attrs, dropdownSelectCtrl) {
                     scope.selectItem = function () {
-                        console.log('dropdownSelectItem call');
-                        if (scope.dropdownSelectItem.href) {
-                            return;
+                        console.log('dropdownSelectItem call enabled = ',scope.dropdownSelectItem.enabled);
+                        if(scope.dropdownSelectItem.enabled) {
+                            console.log('dropdownSelectItem call');
+                            if (scope.dropdownSelectItem.href) {
+                                return;
+                            }
+                            dropdownSelectCtrl.select(scope.dropdownSelectItem);
                         }
-                        dropdownSelectCtrl.select(scope.dropdownSelectItem);
                     };
                 },
 
