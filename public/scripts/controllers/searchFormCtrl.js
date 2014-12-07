@@ -36,9 +36,9 @@ app.controller('searchFormCtrl', ['$scope', '$rootScope', '$location', '$http', 
 
     $scope.$watch( "searchValue", function( newValue, oldValue ) {
             // Ignore initial setup.
-            /*if ( newValue === oldValue ) {
+            if ( newValue === oldValue ) {
                 return;
-            }*/
+            }
 
             // Ignore if form already mirrors new value.
             /*if ( $scope.searchValue === newValue ) {
