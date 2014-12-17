@@ -1,7 +1,7 @@
-<div class="logo">
-    <img ng-src="assets/images/logo/{{sample['caption-image']}}" >    
+<div class="title">
+    <img class="logo" ng-src="assets/images/logo/{{sample['caption-image']}}" > 
+    <span ng-bind="sample['name']"></span>
 </div>
-<div class="title" ng-bind="sample['name']"></div>
 <div class="desc" ng-bind="sample['caption-text']"></div>
 <div class="actions">
     <codeit></codeit>
