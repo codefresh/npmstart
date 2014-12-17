@@ -7,5 +7,5 @@
 /.tmp
 /public/assets/styles
 node_modules
-/public/assets/bower_components
+/public/bower_components
 /dist

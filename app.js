@@ -8,6 +8,8 @@ var morgan = require('morgan');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var codesamples = require('./routes/codesamples');
+
 var app = express();
 var envs = require('./routes/envs')(app);
 var nconf = require('nconf');
@@ -34,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/codesamples', codesamples);
 
 
 // catch 404 and forward to error handler

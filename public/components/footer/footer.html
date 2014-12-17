@@ -1,0 +1,88 @@
+	<div class="container">
+		<div class="row">
+			<div class="about col-md-4 col-sm-12">
+				<div>
+					<h2>About Codefresh</h2>
+					<p>Appdev iPhone App is crafted by <a href="javascript:void(0);" title=" @live_mesh"> @live_mesh</a> (LiveMesh). If you need help on Appdev you can email us: <a href="mailto:info@mysite.com" title="info@mysite.com">info@mysite.com</a>. You can also use the contact form to send us a quick message.</p>
+					<p>Appdev is also available in the social networks. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+
+					<div class="social">
+						<a href="#" class="facebook">facebook</a>
+						<a href="https://twitter.com/codefresh_news" class="twitter">twitter</a>
+						<a href="#" class="youtube">youtube</a>
+						<a href="#" class="google-plus">google plus</a>
+						<a href="https://www.linkedin.com/company/codefresh?trk=company_logo" class="linkedin">linked in</a>
+						<a href="#" class="email">email</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="signup col-md-4 col-sm-12">
+				<div class="signup-black-beta-form" style="display: block;">
+					<h2>Sign up for beta</h2>
+					<div class="bb-form" ng-hide="subscribe.result">
+						<form id="signUpBlackBeta" class="form-horizontal" role="form" ng-submit="subscribe.send()">
+							<div class="row">
+								<div class="col-sm-12 userName-wrap">
+									<div class="form-group">
+										<input id="betaname_black" name="name" type="text" class="form-control" placeholder="Name" required ng-model="subscribe.form.name">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 userEmail-wrap">
+									<div class="form-group">
+										<input id="betaemail_black" name="email" type="email" class="form-control" placeholder="Email" required ng-model="subscribe.form.email">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group">                                           
+                                                                                <button style="width:100px;" ng-show="subscribe.loader" type="button" class="btn btn-yellow btn-lg loader">&nbsp;</button>
+										<button style="width:100px;" ng-hide="subscribe.loader" id="submit_black" type="submit" class="btn btn-yellow btn-lg">Sign Up</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="bb-form-result" ng-show="subscribe.result">
+						<p ng-bind-html="subscribe.result">Thanks for signing up</p>
+						<button id="blackBetaResBtn" class="btn btn-success-green" ng-click="subscribe.reset()">Got it</button>						
+					</div>
+					<div class="watermark hidden-sm hidden-xs">
+						<section>
+							<span>codefresh</span>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<div class="updates col-md-4 col-sm-12">
+				<div>
+					<h2>Codefresh Updates</h2>
+					<a class="twitter-timeline" href="https://twitter.com/codefresh_news"
+					   data-widget-id="509393389469462528">Tweets by @codefresh_news</a>
+					<script>!function (d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+						if (!d.getElementById(id)) {
+							js = d.createElement(s);
+							js.id = id;
+							js.src = p + "://platform.twitter.com/widgets.js";
+							fjs.parentNode.insertBefore(js, fjs);
+						}
+					}(document, "script", "twitter-wjs");</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="about col-sm-12 col-md-12">
+					<p>Copyright &copy; 2014 CodeFresh</p>
+				</div>
+			</div>
+		</div>
+	</div>

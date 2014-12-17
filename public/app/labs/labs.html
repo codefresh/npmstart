@@ -1,0 +1,31 @@
+
+<header>
+    
+    <div class="wrapper">
+        <div ng-include="'components/navbar/navbar.html'"></div>
+        <div class="bottle"><img src="assets/images/bottle.png"></div>
+        <h1>
+            An online node.js lab
+            explore, try and test your node.js code instantly
+        </h1>
+    </div>
+    
+</header>
+
+<section class="labs_search">
+    <div class="wrapper">
+        
+    </div>
+</section>
+
+<section class="labs_categories">
+    <div class="wrapper" ng-hide="codeSamplesCollection">
+        <codecategory ng-class="cat.color" category-obj="cat" search-code="searchCode(query)" ng-repeat="cat in codeCategoriesCollection" template-url="components/codesample/categories.html"></codecategory>
+        <br class="clr" >
+    </div>
+    <div class="wrapper samples" ng-show="codeSamplesCollection">
+        <codesample sample-obj="sample" ng-repeat="sample in codeSamplesCollection" template-url="components/codesample/codesample.html"></codesample>
+        <br class="clr" >
+    </div>
+</section>
+<footer class="footer" ng-include="'components/footer/footer.html'" ng-controller="FooterCtrl"></footer>

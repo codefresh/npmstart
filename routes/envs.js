@@ -52,14 +52,14 @@ router.post('/clone', function(req, res)
 router.get('/env/open', function(req, res)
 {
   console.log("body is " + req.body);
-  console.log("queyr " + JSON.stringify(req.query));
+  console.log("query " + JSON.stringify(req.query));
   var params = req.query;
   res.redirect(params.url);
 })
 router.get('/env/all', function(req, res)
 {
   console.log("body is " + req.body);
-  console.log("queyr " + JSON.stringify(req.query));
+  console.log("query " + JSON.stringify(req.query));
 
   res.send(env);
 })
