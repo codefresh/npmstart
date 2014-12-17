@@ -17,7 +17,7 @@ app.service('CodeSampleService', ['$http', '$resource', function($http, $resourc
 	var getCategoriesCollection = function() {
 			return $http.get('/codesamples/categories')
 			.success(function(data, status, headers, config) {
-				console.log("getTagsCollection success");
+				//console.log("getTagsCollection success");
 			})
 			.error(function(data, status, headers, config) {
 				console.log("getCategoriesCollection error");
@@ -38,7 +38,7 @@ app.service('CodeSampleService', ['$http', '$resource', function($http, $resourc
 
 		return $http.get('/codesamples/codesamplecollection')
 			.success(function(data, status, headers, config) {
-				console.log("getSampleCollection success");
+				//console.log("getSampleCollection success");
 			})
 			.error(function(data, status, headers, config) {
 				console.log("getSampleCollection error");

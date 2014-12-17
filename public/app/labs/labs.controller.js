@@ -7,7 +7,9 @@
 
 	/* @ngInject */
 	function LabsCtrl($scope, $http, $location, CodeSampleService) {
-		
+		$scope.$on('$routeChangeStart', function(next, current) { 
+			console.log("route");
+		});
 		$scope.codeCategoriesCollection = [];
 		$scope.codeSamplesCollection = false;
 	     

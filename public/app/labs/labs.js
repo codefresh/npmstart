@@ -8,10 +8,16 @@ angular
   function Configuration($stateProvider) {
     $stateProvider
       .state('labs', {
-        url: '/',
-        templateUrl: 'app/labs/labs.html',
-        controller: 'LabsCtrl'
-      });
+          url: '/',
+          templateUrl: 'app/labs/labs.html',
+          controller: 'LabsCtrl'
+        },
+        {
+          url: '/search',
+          templateUrl: 'app/labs/labs.html',
+          controller: 'LabsCtrl'
+        }
+        );
   }
 
 }).call(this);
