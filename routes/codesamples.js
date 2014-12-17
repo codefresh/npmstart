@@ -36,17 +36,33 @@ module.exports = (function() {
 	    var i,j,sample,u={};
 	    for(i in samples) {
 		sample=samples[i];
+		
+		if(u.hasOwnProperty(sample.id)) {
+		    continue;
+		}
+		
+		// search in name:
+		if(sample.name.toLowerCase().search(query.toLowerCase(),"i")>-1) {
+		    samples_clone.push(sample);
+		    u[sample.id] = 1;
+		    continue;
+		}
+		
+		
+		// search in tags:
 		for(j in sample.tags) {
-        		if(u.hasOwnProperty(sample.id)) {
-			    continue;
-			}
-
-			if(sample.tags[j].toLowerCase().search(query.toLowerCase(),"i")>-1) {
-			    samples_clone.push(sample);
-			    u[sample.id] = 1;	
-			}
+		    if(u.hasOwnProperty(sample.id)) {
+			continue;
+		    }
+		    if(sample.tags[j].toLowerCase().search(query.toLowerCase(),"i")>-1) {
+			samples_clone.push(sample);
+			u[sample.id] = 1;	
+		    }
 				
         	}
+		//////////////////
+		
+		
 		c++;
 	    }
 	}
