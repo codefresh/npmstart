@@ -8,6 +8,7 @@
 	/* @ngInject */
 	function LabsCtrl($scope, $http, $location, CodeSampleService) {
 		$scope.breadcrumbs = [];
+		$scope.mini_view = true;
 		
 		$scope.resetView = function() {
 			$scope.codeSamplesCollection = false;
