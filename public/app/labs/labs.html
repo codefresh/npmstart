@@ -1,5 +1,5 @@
 
-<header ng-class="{mini:mini_view}">
+<header ng-class="{mini:mini_view}"">
     
     <div class="wrapper">
         <div ng-include="'components/navbar/navbar.html'"></div>
@@ -14,7 +14,12 @@
 
 <section class="labs_search">
     <div class="wrapper">
-        
+        <div class="search_wrap">
+            <form ng-submit="freeSearch()">
+                <input type="text" ng-model="searchKey" placeholder="What are you looking for?" >
+                <button type="submit">&nbsp;</button>        
+            </form>
+        </div>
     </div>
 </section>
 

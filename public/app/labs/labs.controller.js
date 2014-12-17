@@ -8,11 +8,14 @@
 	/* @ngInject */
 	function LabsCtrl($scope, $http, $location, CodeSampleService) {
 		$scope.breadcrumbs = [];
-		$scope.mini_view = true;
+		$scope.mini_view = false;
+		$scope.searchKey = "";
 		
 		$scope.resetView = function() {
+			$location.url($location.path());
 			$scope.codeSamplesCollection = false;
 			loadCat();
+			$scope.mini_view = false;
 		};
 		
 		var genBreadcrumbs = function(arr) {
@@ -34,6 +37,14 @@
 		
 		genBreadcrumbs([]);
 		
+		
+		$scope.freeSearch = function() {
+			//alert(this.searchKey);
+			delete $location.$$search.category
+			$scope.searchCode("free="+this.searchKey);
+			
+		};
+		
 		$scope.codeCategoriesCollection = [];
 		$scope.codeSamplesCollection = false;
 	     
@@ -43,10 +54,8 @@
 		    var sp2;
 		    for(var i in sp) {
 			    if (sp[i]!="") {
-				    sp2 = sp[i].split("=");
-				    
-				    query_obj[sp2[0]] = sp2[1];
-				    
+				    sp2 = sp[i].split("=");				    
+				    query_obj[sp2[0]] = sp2[1];				    
 				    $location.search(sp2[0],sp2[1])
 			    }
 		    }
@@ -64,10 +73,12 @@
 				if (c>0) {
 					search_text += ", ";
 				}
-				search_text += x + ": " + query_obj[x];
+				search_text += query_obj[x];
 				c++;
 			    }
 			    genBreadcrumbs([{text:search_text,func:""}]);
+			    $scope.mini_view = true;
+			    window.scrollTo(0, 0);
 		    });
 		};
 	    

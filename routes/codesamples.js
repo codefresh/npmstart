@@ -28,6 +28,29 @@ module.exports = (function() {
 	    }
 	}
 	
+	if (req.body.free) {
+	    //filter by category:
+	    console.log("filter by free");
+	    var query = req.body.free;
+	    var c = 0;
+	    var i,j,sample,u={};
+	    for(i in samples) {
+		sample=samples[i];
+		for(j in sample.tags) {
+        		if(u.hasOwnProperty(sample.id)) {
+			    continue;
+			}
+
+			if(sample.tags[j].toLowerCase().search(query.toLowerCase(),"i")>-1) {
+			    samples_clone.push(sample);
+			    u[sample.id] = 1;	
+			}
+				
+        	}
+		c++;
+	    }
+	}
+	
         res.send(samples_clone);
     });
     
@@ -88,7 +111,7 @@ var categories = [
 
 var samples=[
   {
-    "id": "express",
+    "id": "express1",
     "name": "express example 1",
     "type": "1",
     "ready": true,
@@ -105,7 +128,7 @@ var samples=[
      "categories": ["express"]
   },
   {
-    "id": "express",
+    "id": "express2",
     "name": "express example 2",
     "type": "1",
     "ready": true,
@@ -122,7 +145,7 @@ var samples=[
      "categories": ["express"]
   },
   {
-    "id": "mongo",
+    "id": "mongo1",
     "name": "mongo example 1",
     "type": "1",
     "ready": false,
@@ -139,7 +162,7 @@ var samples=[
      "categories": ["mongo"]
   },
   {
-    "id": "mongo",
+    "id": "mongo2",
     "name": "mongo example 2",
     "type": "1",
     "ready": false,
@@ -156,7 +179,7 @@ var samples=[
      "categories": ["mongo"]
   },
   {
-    "id": "mongo",
+    "id": "mongo3",
     "name": "mongo example 3",
     "type": "1",
     "ready": false,
@@ -173,7 +196,7 @@ var samples=[
      "categories": ["mongo"]
   },
   {
-    "id": "heroku",
+    "id": "heroku1",
     "name": "heroku example 1",
     "type": "1",
     "ready": false,
@@ -190,7 +213,7 @@ var samples=[
      "categories": ["heroku"]
   },
   {
-    "id": "spyjs",
+    "id": "spyjs1",
     "name": "spyjs example",
     "type": "1",
     "ready": false,
@@ -207,7 +230,7 @@ var samples=[
     "categories": ["testing"]
   },
   {
-    "id": "mocha",
+    "id": "mocha1",
     "name": "mocha example",
     "type": "1",
     "ready": false,
@@ -224,7 +247,7 @@ var samples=[
     "categories": ["testing"]
   },
   {
-    "id": "restify",
+    "id": "restify1",
     "name": "restify",
     "type": "1",
     "ready": false,
@@ -241,7 +264,7 @@ var samples=[
     "categories": []
   },
   {
-    "id": "jade",
+    "id": "jade1",
     "name": "jade",
     "type": "1",
     "ready": false,
