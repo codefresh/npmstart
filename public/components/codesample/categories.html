@@ -1,4 +1,5 @@
-<div class="background" ng-click="searchCode({query:'category='+category.name})"></div>
+<div ng-if="category.active" class="background" ng-click="searchCode({query:'category='+category.name})"></div>
+<div ng-if="!category.active" class="not_active background"></div>
 <div class="text">
     <h3 ng-bind="category.name"></h3>
     <p ng-bind="category.desc"></p>

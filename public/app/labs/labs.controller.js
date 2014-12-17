@@ -39,8 +39,11 @@
 		
 		
 		$scope.freeSearch = function() {
-			//alert(this.searchKey);
-			delete $location.$$search.category
+			if (this.searchKey === "") {
+				$scope.resetView();
+				return;
+			}
+			delete $location.$$search.category;
 			$scope.searchCode("free="+this.searchKey);
 			
 		};

@@ -2008,7 +2008,6 @@ codecategory {
     width:292px;
     height:335px;
     margin:10px 0px;
-    cursor:pointer;
     float:left;
 }
 
@@ -2066,6 +2065,11 @@ codecategory .background {
         height:335px;
         background-image:url('../images/hex.png');
         z-index:10;
+        cursor:pointer;
+}
+
+codecategory .background.not_active {
+    cursor:default;
 }
 
 codecategory .logo{

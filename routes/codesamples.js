@@ -103,25 +103,65 @@ var categories = [
 	    name: "express",
 	    logo: "express.png",
 	    desc: "Web application framework for node",
-	    color: ""
+	    color: "",
+	    active: true,
+	    class: "",
 	},
 	{
 	    name: "mongo",
 	    logo: "mongo.png",
 	    desc: "An open source NoSQL database",
-	    color: "blue"
+	    color: "blue",
+	    active: true,
+	    class: "",
 	},
 	{
 	    name: "heroku",
 	    logo: "heroku.png",
 	    desc: "An cloud platform as a service supporting node",
-	    color: "orange"
+	    color: "orange",
+	    active: true,
+	    class: "new",
 	},
 	{
 	    name: "testing",
 	    logo: "testing.png",
 	    desc: "Testing tools for javascript",
-	    color: "gray"
+	    color: "gray",
+	    active: false,
+	    class: "soon",
+	},
+	{
+	    name: "Sails",
+	    logo: "sails.png",
+	    desc: "Node.js framework",
+	    color: "yellow",
+	    active: false,
+	    class: "soon",
+	},
+	{
+	    name: "Total.js",
+	    logo: "total.png",
+	    desc: "Node.js framework",
+	    color: "",
+	    active: false,
+	    class: "soon",
+	},
+	{
+	    name: "Partial.js",
+	    logo: "partial.png",
+	    desc: "Node.js framework",
+	    color: "gray",
+	    active: false,
+	    class: "soon",
+	},
+	{
+	    name: "Koa",
+	    logo: "koa.png",
+	    desc: "Node.js framework",
+	    color: "blue",
+	    active: false,
+	    class: "soon",
 	}
     ];
 
