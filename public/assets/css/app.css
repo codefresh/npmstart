@@ -2073,7 +2073,8 @@ codecategory.soon .soon {
 }
 
 
-codesample {
+codesample,
+.codesamle-header {
     display:block;
     border:1px solid #7b7b74;
     border-top:0;
@@ -2086,17 +2087,30 @@ codesample {
     overflow:hidden;
 }
 
-codesample:first-of-type {
+.codesamle-header {
     border-top:1px solid #7b7b74;
 }
 
-codesample div {
+codesample:first-of-type {
+    
+}
+
+codesample div,
+.codesamle-header div{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-codesample .logo {
+.codesamle-header>div {
+    font-family: "Podkova", Georgia, serif;
+    font-size:18px;
+    font-weight:700;
+    text-decoration: underline;
+}
+
+codesample .logo,
+.codesamle-header .logo{
     float:left;
     width:10%;
     text-align:center;
@@ -2104,20 +2118,23 @@ codesample .logo {
     border-right:1px solid #7b7b74;
 }
 
-codesample .logo img {
+codesample .logo img,
+.codesamle-header .logo img{
     max-height:45px;
     max-width:95%;
     vertical-align: middle;
 }
 
-codesample .title {
+codesample .title,
+.codesamle-header .title{
     float:left;
     width:20%;
     padding-left:10px;
     border-right:1px solid #7b7b74;
 }
 
-codesample .desc {
+codesample .desc,
+.codesamle-header .desc{
     padding-left:10px;
     float:left;
     width:50%;
@@ -2125,9 +2142,10 @@ codesample .desc {
     
 }
 
-codesample .actions {
+codesample .actions ,
+.codesamle-header .actions{
     float:right;
-    width:10%;
+    width:20%;
     padding:0px 10px;
 }
 
@@ -2136,7 +2154,7 @@ codeit {
     float:right;
 }
 
-.actions button.code-it, codeit button.btn {
+codeit button.btn {
    text-transform: uppercase;
    background-color: #f1c40f;
    color:#000;
@@ -2144,12 +2162,67 @@ codeit {
    text-align:center;
    font-family: "Open Sans", Arial, sans-serif;
    font-weight: bold;
-   font-size:16px;
+   font-size:14px;
    height:40px;
    line-height:40px;
    float:right;
    margin-top:5px;
    padding:0px 5px;
+}
+
+codeit button.btn.loading {
+    padding-right:40px;
+    background-image:url('../images/build.gif');
+    background-position:right center;
+    background-position:right 5px center;
+    background-repeat: no-repeat;
+}
+
+codeit button.btn.btn-success {
+    background-color: #47A447;
+    color:#fff;
+    padding-right:42px;
+    background-image:url('../images/ok.png');
+    background-position:right center;
+    background-position:right 2px center;
+    background-repeat: no-repeat;
+}
+
+breadcrumbs {
+    display:block;
+    margin:10px 0px;
+    height:30px;
+    line-height:30px;
+}
+breadcrumbs>div {
+    display:inline-block;
+    float:left;
+}
+breadcrumbs a {
+    display:block;
+    float:left;
+    font-family: "Podkova", Georgia, serif;
+    text-transform: capitalize;
+    color:#333;
+}
+
+breadcrumbs a:hover {
+    text-decoration:none;
+    color:#333;
+}
+
+breadcrumbs a.link {
+    text-decoration:underline;
+    color: #428bca;
+    cursor:pointer;
+}
+
+breadcrumbs span {
+    background-image:url('../images/crumb_arr.png');
+    width:30px;
+    height:30px;
+    display:block;
+    float:left;
 }
 /*//////////////*/
 

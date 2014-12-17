@@ -31,12 +31,14 @@ app.directive('codeit', ['$http', function ($http) {
             
             if (codeButton.status === "ready") {
                 window.open(codeButton.url, "_blank");
+                return;
             }
             
             //cfpLoadingBar.start();
             console.log("start animation");
+            codeButton.bstyle = "loading";        
             
-            codeButton.title = "Setting environment ...";
+            codeButton.title = "Setting environment";
             codeButton.status = "inprogress";
 
             $http.post('/env').success(function (data) {
@@ -45,6 +47,7 @@ app.directive('codeit', ['$http', function ($http) {
                 $scope.deploy.title = "workspace is ready";
                 //cfpLoadingBar.complete();
                 console.log("animation ends!");
+                codeButton.bstyle = "btn-success";
                 $scope.codeButton.title = "Ready to code!"
                 codeButton.url = data.url;
 

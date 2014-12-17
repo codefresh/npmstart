@@ -24,6 +24,14 @@
         <br class="clr" >
     </div>
     <div class="wrapper samples" ng-show="codeSamplesCollection">
+        <breadcrumbs mdata="breadcrumbs"></breadcrumbs>
+        <br>
+        <div class="codesamle-header">
+            <div class="logo">&nbsp;</div>
+            <div class="title">Name</div>
+            <div class="desc">Description</div>
+            <div class="actions">Actions</div>
+        </div>
         <codesample sample-obj="sample" ng-repeat="sample in codeSamplesCollection" template-url="components/codesample/codesample.html"></codesample>
         <br class="clr" >
     </div>

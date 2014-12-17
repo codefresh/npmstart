@@ -2,18 +2,19 @@
   "name": "code-fresh-site-labs",
   "version": "0.0.0",
   "dependencies": {
-    "angular": ">=1.2.*",
+    "angular": ">=1.2.27",
     "json3": "~3.3.1",
     "es5-shim": "~3.0.1",
     "bootstrap": "~3.1.1",
     "angular-resource": ">=1.2.*",
     "angular-cookies": ">=1.2.*",
     "angular-sanitize": ">=1.2.*",
-    "angular-bootstrap": "~0.11.0",
+    "angular-bootstrap": "~0.12.0",
     "font-awesome": ">=4.2.0",
     "lodash": "~2.4.1",
     "angular-ui-router": "~0.2.10",
-    "angular-animate": ">=1.2.*"
+    "angular-animate": ">=1.2.*",
+    "angular-ui-grid": "~3.0.0-rc.16"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",

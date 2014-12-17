@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'D:\\codefresh\\github_clones\\npmstart',
+6 verbose install   [ 'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'debug',
+6 verbose install     'express',
+6 verbose install     'jade',
+6 verbose install     'lodash',
+6 verbose install     'morgan',
+6 verbose install     'nconf',
+6 verbose install     'node-regexp',
+6 verbose install     'q',
+6 verbose install     'serve-favicon',
+6 verbose install     'shelljs',
+6 verbose install     'http-proxy',
+6 verbose install     'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-coffee',
+6 verbose install     'grunt-contrib-compass',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-ngmin',
+6 verbose install     'grunt-rev',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'karma',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt' ] ]
+7 info preinstall npmstart@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping body-parser@~1.9.2 D:\codefresh\github_clones\npmstart
+10 verbose already installed skipping cookie-parser@~1.3.3 D:\codefresh\github_clones\npmstart
+11 verbose already installed skipping debug@~2.1.0 D:\codefresh\github_clones\npmstart
+12 verbose already installed skipping express@~4.10.1 D:\codefresh\github_clones\npmstart
+13 verbose already installed skipping jade@~1.7.0 D:\codefresh\github_clones\npmstart
+14 verbose already installed skipping lodash@^2.4.1 D:\codefresh\github_clones\npmstart
+15 verbose already installed skipping morgan@^1.4.1 D:\codefresh\github_clones\npmstart
+16 verbose already installed skipping nconf@^0.6.9 D:\codefresh\github_clones\npmstart
+17 verbose already installed skipping node-regexp@^0.1.1 D:\codefresh\github_clones\npmstart
+18 verbose already installed skipping q@^1.0.1 D:\codefresh\github_clones\npmstart
+19 verbose already installed skipping serve-favicon@~2.1.6 D:\codefresh\github_clones\npmstart
+20 verbose already installed skipping shelljs@^0.3.0 D:\codefresh\github_clones\npmstart
+21 verbose already installed skipping http-proxy@~1.6.1 D:\codefresh\github_clones\npmstart
+22 verbose already installed skipping grunt@^0.4.5 D:\codefresh\github_clones\npmstart
+23 verbose already installed skipping grunt-autoprefixer@~1.0.1 D:\codefresh\github_clones\npmstart
+24 verbose already installed skipping grunt-concurrent@~1.0.0 D:\codefresh\github_clones\npmstart
+25 verbose already installed skipping grunt-contrib-clean@~0.6.0 D:\codefresh\github_clones\npmstart
+26 verbose already installed skipping grunt-contrib-coffee@~0.12.0 D:\codefresh\github_clones\npmstart
+27 verbose already installed skipping grunt-contrib-compass@~1.0.1 D:\codefresh\github_clones\npmstart
+28 verbose already installed skipping grunt-contrib-concat@^0.5.0 D:\codefresh\github_clones\npmstart
+29 verbose already installed skipping grunt-contrib-connect@~0.8.0 D:\codefresh\github_clones\npmstart
+30 verbose already installed skipping grunt-contrib-copy@~0.7.0 D:\codefresh\github_clones\npmstart
+31 verbose already installed skipping grunt-contrib-cssmin@~0.10.0 D:\codefresh\github_clones\npmstart
+32 verbose already installed skipping grunt-contrib-htmlmin@~0.3.0 D:\codefresh\github_clones\npmstart
+33 verbose already installed skipping grunt-contrib-imagemin@~0.9.1 D:\codefresh\github_clones\npmstart
+34 verbose already installed skipping grunt-contrib-jshint@^0.10.0 D:\codefresh\github_clones\npmstart
+35 verbose already installed skipping grunt-contrib-uglify@^0.6.0 D:\codefresh\github_clones\npmstart
+36 verbose already installed skipping grunt-contrib-watch@~0.5.2 D:\codefresh\github_clones\npmstart
+37 verbose already installed skipping grunt-google-cdn@~0.4.3 D:\codefresh\github_clones\npmstart
+38 verbose already installed skipping grunt-karma@^0.9.0 D:\codefresh\github_clones\npmstart
+39 verbose already installed skipping grunt-ngmin@~0.0.3 D:\codefresh\github_clones\npmstart
+40 verbose already installed skipping grunt-rev@~0.1.0 D:\codefresh\github_clones\npmstart
+41 verbose already installed skipping grunt-svgmin@~1.0.0 D:\codefresh\github_clones\npmstart
+42 verbose already installed skipping grunt-usemin@~2.6.0 D:\codefresh\github_clones\npmstart
+43 verbose already installed skipping karma@^0.12.24 D:\codefresh\github_clones\npmstart
+44 verbose already installed skipping karma-jasmine@^0.2.3 D:\codefresh\github_clones\npmstart
+45 verbose already installed skipping karma-phantomjs-launcher@^0.1.4 D:\codefresh\github_clones\npmstart
+46 verbose already installed skipping load-grunt-tasks@~1.0.0 D:\codefresh\github_clones\npmstart
+47 verbose already installed skipping time-grunt@~1.0.0 D:\codefresh\github_clones\npmstart
+48 silly resolved []
+49 info build D:\codefresh\github_clones\npmstart
+50 verbose linkStuff [ false, false, false, 'D:\\codefresh\\github_clones' ]
+51 info linkStuff npmstart@0.0.1
+52 verbose linkBins npmstart@0.0.1
+53 verbose linkMans npmstart@0.0.1
+54 verbose rebuildBundles npmstart@0.0.1
+55 verbose rebuildBundles [ '.bin',
+55 verbose rebuildBundles   'body-parser',
+55 verbose rebuildBundles   'cookie-parser',
+55 verbose rebuildBundles   'debug',
+55 verbose rebuildBundles   'express',
+55 verbose rebuildBundles   'grunt',
+55 verbose rebuildBundles   'grunt-autoprefixer',
+55 verbose rebuildBundles   'grunt-concurrent',
+55 verbose rebuildBundles   'grunt-contrib-clean',
+55 verbose rebuildBundles   'grunt-contrib-coffee',
+55 verbose rebuildBundles   'grunt-contrib-compass',
+55 verbose rebuildBundles   'grunt-contrib-concat',
+55 verbose rebuildBundles   'grunt-contrib-connect',
+55 verbose rebuildBundles   'grunt-contrib-copy',
+55 verbose rebuildBundles   'grunt-contrib-cssmin',
+55 verbose rebuildBundles   'grunt-contrib-htmlmin',
+55 verbose rebuildBundles   'grunt-contrib-imagemin',
+55 verbose rebuildBundles   'grunt-contrib-jshint',
+55 verbose rebuildBundles   'grunt-contrib-uglify',
+55 verbose rebuildBundles   'grunt-contrib-watch',
+55 verbose rebuildBundles   'grunt-google-cdn',
+55 verbose rebuildBundles   'grunt-karma',
+55 verbose rebuildBundles   'grunt-ngmin',
+55 verbose rebuildBundles   'grunt-rev',
+55 verbose rebuildBundles   'grunt-svgmin',
+55 verbose rebuildBundles   'grunt-usemin',
+55 verbose rebuildBundles   'http-proxy',
+55 verbose rebuildBundles   'jade',
+55 verbose rebuildBundles   'karma',
+55 verbose rebuildBundles   'karma-jasmine',
+55 verbose rebuildBundles   'karma-phantomjs-launcher',
+55 verbose rebuildBundles   'load-grunt-tasks',
+55 verbose rebuildBundles   'lodash',
+55 verbose rebuildBundles   'morgan',
+55 verbose rebuildBundles   'nconf',
+55 verbose rebuildBundles   'node-regexp',
+55 verbose rebuildBundles   'q',
+55 verbose rebuildBundles   'serve-favicon',
+55 verbose rebuildBundles   'shelljs',
+55 verbose rebuildBundles   'time-grunt' ]
+56 info install npmstart@0.0.1
+57 info postinstall npmstart@0.0.1
+58 verbose unsafe-perm in lifecycle true
+59 info npmstart@0.0.1 Failed to exec postinstall script
+60 error npmstart@0.0.1 postinstall: `bower install`
+60 error Exit status 8
+61 error Failed at the npmstart@0.0.1 postinstall script.
+61 error This is most likely a problem with the npmstart package,
+61 error not with npm itself.
+61 error Tell the author that this fails on your system:
+61 error     bower install
+61 error You can get their info via:
+61 error     npm owner ls npmstart
+61 error There is likely additional logging output above.
+62 error System Windows_NT 6.1.7601
+63 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+64 error cwd D:\codefresh\github_clones\npmstart
+65 error node -v v0.10.33
+66 error npm -v 1.4.28
+67 error code ELIFECYCLE
+68 verbose exit [ 1, true ]
