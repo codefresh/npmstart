@@ -80,17 +80,19 @@
 				break;
 			}
 		}
-	    
-		if (loadCategories) {
-			loadCat();			
-		}
-		
 		
 		var loadCat = function() {
 			CodeSampleService.getCategoriesCollection().success(function(data, status, headers, config) {
 				$scope.codeCategoriesCollection = data;
 			});
 		}
+	    
+		if (loadCategories) {
+			loadCat();			
+		}
+		
+		
+		
 		
 	    
 	    
