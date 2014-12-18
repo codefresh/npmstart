@@ -9,7 +9,7 @@ app.directive('codeit', ['$http', function ($http) {
         scope: {
             bstyle: '@',
             bsize: '@',
-            exId: '@'
+            exampleId: '=exId'
         }
     };
 
@@ -23,7 +23,7 @@ app.directive('codeit', ['$http', function ($http) {
         codeButton.bsize = $scope.bsize ? $scope.bsize : "";
         
         
-        
+        console.log($scope.exampleId);
 
 
         $scope.codeit = function () {
