@@ -8,7 +8,8 @@ app.directive('codeit', ['$http', function ($http) {
         template: '<button type="button" class="btn {{codeButton.bstyle}} {{codeButton.bsize}}" ng-click="codeit()">{{codeButton.title}}</button>',
         scope: {
             bstyle: '@',
-            bsize: '@'
+            bsize: '@',
+            exId: '@'
         }
     };
 
@@ -20,6 +21,9 @@ app.directive('codeit', ['$http', function ($http) {
 
         codeButton.bstyle = $scope.bstyle ? $scope.bstyle : "";
         codeButton.bsize = $scope.bsize ? $scope.bsize : "";
+        
+        
+        
 
 
         $scope.codeit = function () {

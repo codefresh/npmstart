@@ -1,0 +1,14 @@
+<div ng-if="category.active" class="background" ng-click="searchCode({query:'category='+category.name})"></div>
+<div ng-if="!category.active" class="not_active background"></div>
+<div class="text">
+    <h3 ng-bind="category.name"></h3>
+    <p ng-bind="category.desc"></p>
+    
+    <codeit ex_id="sample.id"></codeit>
+</div>
+<div class="logo">
+    <img ng-src="assets/images/logo/{{category.logo}}">
+</div>
+<div class="new"></div>
+<div class="soon"></div>
+
